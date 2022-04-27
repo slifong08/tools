@@ -15,6 +15,8 @@ F = args.bedfile
 from_build= args.from_build
 to_build= args.to_build
 path = "/".join(F.split("/")[:-1])
+print("lifting over", F, "from, to", from_build, to_build, "in", path)
+
 
 def liftover(bedfile, path, from_build, to_build): # bedfile with full path
 
@@ -22,26 +24,26 @@ def liftover(bedfile, path, from_build, to_build): # bedfile with full path
     sid = (bedfile.split("/")[-1]).split(".")[0] # get the sample ID
 
     ### sort the bedfile ###
-    tempbed = f"{path}temp_{sid}.bed" # format the bed file into 5 columns
+    tempbed = os.path.join(path, f"temp_{sid}.bed") # format the bed file into 5 columns
 
     # [[chr start end enh_id sample_id]] and sort by coordinates
 
     cmd = f"sort -k1,1 -k2,2 -k3,3 {bedfile} > {tempbed}"
 
-    print("standardizing Bed format")
+    print("standardizing Bed format", tempbed)
     subprocess.call(cmd, shell=True)
 
     ### liftover the formatted bedfile ###
 
     chainPath = "/dors/capra_lab/data/ucsc/liftOver/" # path to chain file
-    chainf = f"{chainPath}{from_build}To{to_build}.over.chain.gz"
+    chainf = os.path.join(chainPath, f"{from_build}To{to_build}.over.chain.gz")
 
     #write to result files
-    lifted = f"{path}{sid}. liftOver.to.{to_build}.bed" # name the liftover file
-    notlifted = f"{path}{sid}.notlifted.to.{to_build}.bed" # name the notlifted file
+    lifted = os.path.join(path, f"{sid}.liftOver.to.{to_build}.bed") # name the liftover file
+    notlifted = os.path.join(path, f"{sid}.notlifted.to.{to_build}.bed") # name the notlifted file
 
     cmd = f"liftOver {tempbed} {chainf} {lifted} {notlifted}"
-    print("liftingOver", sid)
+    print("liftingOver", sid, "\n\n", cmd, "\n\n")
     subprocess.call(cmd, shell=True)
     print("done lifting")
 

@@ -55,8 +55,12 @@ def fasta_2_bed(f, path, build):
 
 #%%
 
-bedf = fasta_2_bed(F, PATH, BUILD)
+def main(argv):
 
-df = pd.read_csv(bedf, sep = '\t', skiprows = 2, header = None)
+    bedf = fasta_2_bed(F, PATH, BUILD)
 
-df.head()
+    df = pd.read_csv(bedf, sep = '\t', skiprows = 2, header = None)
+
+    
+if __name__ == "__main__":
+    main(sys.argv[1:])
