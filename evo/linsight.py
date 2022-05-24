@@ -30,8 +30,7 @@ arg_parser.add_argument("bedfile", help='bed file w/ full path')
 args = arg_parser.parse_args()
 
 ENHANCERF = args.bedfile
-ENHANCERPATH = "/".join(ENHANCERF.split("/")[:-1]) + "/"
-ENHANCERFILE = ENHANCERF.split("/")[-1]
+ENHANCERPATH, ENHANCERFILE = os.path.split(ENHANCERF)
 ENHANCER_ID = ".".join(ENHANCERFILE.split(".")[:-1])
 
 
@@ -62,19 +61,18 @@ def chr_lst(): # make a list of autosomes
 
 
 #split up the linsight/enhancer file by chromosome.
-def split_by_chr(path, f, id):
+def split_by_chr(path, f, id_):
 
-    chr_fs = glob.glob("%schr*.bed*" % path) # check that you haven't split already.
-
+    chr_fs = glob.glob(os.path.join(path, f"chr*_{id_}.bed")) # check that you haven't split already.
 
     if len(chr_fs) == 0:
 
         os.chdir(path)
 
-        split_cmd = "awk '{print >$1\"_%s.bed\"}' %s" % (id, f)
+        split_cmd = "awk '{print >$1\"_%s.bed\"}' %s" % (id_, f)
 
         subprocess.call(split_cmd, shell = True)
-        print(split_cmd, "\n", f, id)
+        print(split_cmd, "\n", f, id_)
 
         print("split", f)
 
@@ -83,15 +81,15 @@ def split_by_chr(path, f, id):
         print("already split", f)
 
 
-def make_chr_file_dict(chr_list, path, id): # make a dictionary of chr.
+def make_chr_file_dict(chr_list, path, id_): # make a dictionary of chr.
 
     file_dict = {}
 
     for chr_num in chr_list:
 
-        f_chr = "%s%s_%s.bed" % (path, chr_num, id)
+        f_chr = os.path.join(path, f"{chr_num}_{id_}.bed")
 
-        if id == "linsight": # linsight files are zipped.
+        if id_ == "linsight": # linsight files are zipped.
 
             f_chr = f_chr + ".gz"
 
@@ -102,28 +100,28 @@ def make_chr_file_dict(chr_list, path, id): # make a dictionary of chr.
 
 def bed_intersect(enh_chr, lin_chr, outfile):
 
-        bed_cmd = "bedtools intersect -a %s -b %s -wao > %s" % (enh_chr, lin_chr, outfile)
+        bed_cmd = f"bedtools intersect -a {enh_chr} -b {lin_chr} -wao > {outfile}"
         print(bed_cmd)
         subprocess.call(bed_cmd, shell = True)
         
-
         print("finished", outfile)
 
 
-def cleanup_dir(path, id, outpath):
+def cleanup_dir(path, id_, outpath):
 
         # concat chromosome files
-        CATFILE = "%s_x_linsight.bed" % id
-        CATF = os.path.join(outpath, CATFILE)
-
-        cat_cmd = "cat %s/chr*_x_linsight.bed > %s" %(outpath, CATF)
+        CATF = os.path.join(outpath, f"{id_}_x_linsight.bed")
+        cat_query = os.path.join(outpath, "chr*_x_linsight.bed")
+                             
+        cat_cmd = f"cat {cat_query} > {CATF}"
         subprocess.call(cat_cmd, shell = True)
         print(cat_cmd)
+                             
         # clean up the chromosome files.
-        cleanup_cmd = "rm %schr*_%s.bed" %(path, id)
+        cleanup_cmd = f"rm {path}chr*_{id_}.bed"
         subprocess.call(cleanup_cmd, shell = True)
 
-        cleanup_cmd = "rm %s/chr*.bed" %(outpath)
+        cleanup_cmd = f"rm {outpath}/chr*.bed"
         subprocess.call(cleanup_cmd, shell = True)
 
 

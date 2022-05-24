@@ -165,22 +165,6 @@ def plot_OR_bar(x, y, data, ci_upper, ci_lower, ytick_multiple, ylim, title):
     return fig, ax
 
 
-# In[7]:
-
-
-NAME= "plot_params"
-cmd = f"jupyter nbconvert {NAME}.ipynb --to python"
-subprocess.call(cmd, shell = True)
-
-
-# In[8]:
-
-
-cmd
-
-
-# In[ ]:
-
 
 
 

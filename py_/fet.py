@@ -36,15 +36,23 @@ def get_2x2(a, b, c, d, comparison):
     return newdf
 
 def fdr_correction(collection_dict):
+    
+
 
     df = pd.concat(collection_dict.values())
-
+        
+        
+    # get vector of p values
     pvals = df["P"]
-
+    
+    # run FDR correction at alpha = 0.05
     df["reject_null"], df["FDR_P"] = statsmodels.stats.multitest.fdrcorrection(pvals, alpha=0.05)
 
     # add an asterisks column
     df["asterisks"] = None
     df.loc[df["reject_null"]== True, "asterisks"] = "*"
+    
+    # add negative log ten p
+    df['-log10p'] = np.log10(df["FDR_P"])*-1
 
     return df

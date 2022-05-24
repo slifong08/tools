@@ -4,7 +4,7 @@ import pandas as pd
 def custom_round(x, base=10):
     return int(base * round(float(x)/base))
 
-def match_len(Df1, Df2, base_len):
+def match_len(Df1, Df2, base_len, columns):
     """
     match df2 on df1 sequence lengths, rounding to the nearest length (e.g. rounding to 10 bp)
     return list of region_ids in df2 matched to length distribution in df1. 
@@ -14,7 +14,7 @@ def match_len(Df1, Df2, base_len):
     df1: pandas dataframe w/ columns "region id" and "len". Match df2 to df1 length distributions
     df2: pandas dataframe w/ columns "region id" and "len". Match df2 to df1 length distributions
     base_len: int, sequence length range that should be matched on in distribution.
-    
+    columns: list, two column names for df. First will be the region_id (chr1:84895-85000) and the second will be the length of that id (e.g. 105 bp)
     
     process
     
@@ -36,8 +36,10 @@ def match_len(Df1, Df2, base_len):
     
 
     """
-    columns = ["region_id", "len"]
+    #columns = ["region_id", "len"]
     columns_names = ["matching_ids", "matching_len"]
+    columns = list(columns)
+    print(columns)
 
     #1 df1
     df1 = Df1[columns].drop_duplicates()  # reduce Df1 to only ids and lengths
@@ -74,11 +76,11 @@ def match_len(Df1, Df2, base_len):
         
         if length > 0 and Ns > 0:
             
-            df1_ids = df1.loc[df1["matching_len"] == length, "matching_ids"].sample(n = Ns, replace = True) # sample w/ replacement
-            df2_ids = df2.loc[df2["matching_len"] == length, "matching_ids"].sample(n = Ns, replace = True) # sample w/ replacement
+            df1_ids = list(df1.loc[df1["matching_len"] == length, "matching_ids"].sample(n = Ns, replace = True)) # sample w/ replacement
+            df2_ids = list(df2.loc[df2["matching_len"] == length, "matching_ids"].sample(n = Ns, replace = True)) # sample w/ replacement
             
             #8 append list of ids
-            df1_match_list.append(df1_ids), df2_match_list.append(df2_ids)
+            df1_match_list.extend(df1_ids), df2_match_list.extend(df2_ids)
 
     #9 return matched ids
     return df1_match_list, df2_match_list
