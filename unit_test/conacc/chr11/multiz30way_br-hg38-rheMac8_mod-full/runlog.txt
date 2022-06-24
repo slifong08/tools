@@ -1,6 +1,0 @@
-/dors/capra_lab/bin/./phyloP --features chr11-aa --msa-format MAF --method LRT --branch hg38-rheMac8 --mode CONACC -d 42         -g /dors/capra_lab/data/ucsc/hg38/multiz30way/hg38.phastCons30way.mod /dors/capra_lab/data/ucsc/hg38/multiz30way/maf/chr11.maf> /dors/capra_lab/users/fongsl/tools/unit_test/conacc/chr11/multiz30way_br-hg38-rheMac8_mod-full/chr11_aa_conacc.bed
-
-/dors/capra_lab/bin/./phyloP --features chr11-aa --msa-format MAF --method LRT --branch hg38-rheMac8 --mode CONACC -d 42         -g /dors/capra_lab/data/ucsc/hg38/multiz30way/hg38.phastCons30way.mod /dors/capra_lab/data/ucsc/hg38/multiz30way/maf/chr11.maf> /dors/capra_lab/users/fongsl/tools/unit_test/conacc/chr11/multiz30way_br-hg38-rheMac8_mod-full/chr11_aa_conacc.bed
-
-/dors/capra_lab/bin/./phyloP --features multiz30way_br-hg38-rheMac8_mod-full --msa-format MAF --method LRT --branch hg38-rheMac8 --mode CONACC -d 42         -g /dors/capra_lab/data/ucsc/hg38/multiz30way/hg38.phastCons30way.mod /dors/capra_lab/data/ucsc/hg38/multiz30way/maf/chr11.maf> /dors/capra_lab/users/fongsl/tools/unit_test/conacc/chr11/multiz30way_br-hg38-rheMac8_mod-full/chr11_hg38_conacc.bed
-
