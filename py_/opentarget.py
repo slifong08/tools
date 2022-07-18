@@ -3,6 +3,7 @@
 # Import relevant libraries for HTTP request and JSON formatting
 import requests
 import json
+import pandas as pd
 
 def query_OpenTargetGenetics_genesForVariant(variant_id):
     
