@@ -333,26 +333,35 @@ def dict_to_df(results_dict, var_id):
 # get PheWAS from the open genetics pipeline
 ###
 
-def run_otg_phewas(df):
-    
+def run_otg_phewas(var_list):
+     
     """
-    1 - dictionaries for collecting open target results + atac-starr feature results
-    2 - per variant
-    2a - query open target genetics for phewas results linked to that variant. 
-    3 - if pheWAS results, turn results into a dictionary for that variant
-    4 - if variant dictionary, turn dictionary into a dataframe
-    5 - save each variant open target and huacc/atac-starr results to a dictionary 
-    6 - concatenate variant results
+    return pandas dataframe of variants and pheWAS overlaps from UKBB via open targets genetics. 
+    
+    input
+        variant list (list) where each variant is a string like this: 1_154453788_C_T or CHR_POS_REF_ALT
+    
+    output
+        pandas dataframe (dataframe) of pheWAS variants and traits that overlap variant. 
+        
+    method
+    
+        1 - dictionaries for collecting open target results + atac-starr feature results
+        2 - per variant
+        2a - query open target genetics for phewas results linked to that variant. 
+        3 - if pheWAS results, turn results into a dictionary for that variant
+        4 - if variant dictionary, turn dictionary into a dataframe
+        5 - save each variant open target and huacc/atac-starr results to a dictionary 
+        6 - if there are results, concatenate variant results and return dataframe. 
+        
     """
     
     #1
     res = {}  # collect open target results
-    test_df = {}  # collect atac-starr results
     
     #2
-    for var_id in df["var"].unique():
-        cols = ["region_id", "activity", "var"]
-        test = df.loc[df["var"] == var_id, cols]
+    for var_id in var_list:
+        
         
         #2a
         query_results = query_OpenTargetGenetics_pheWAS(var_id)  # query opentargetgenetics
@@ -369,7 +378,7 @@ def run_otg_phewas(df):
                 
                 #5
                 res[var_id] = var_df  # add results to dictionary
-                test_df[var_id] = test  # add variant information to dictionary
+                
             else:
                 continue
                 #print("tested this var_id already")
@@ -380,9 +389,9 @@ def run_otg_phewas(df):
     if len(res.keys())>0:
         
         otg_phewas_results = pd.concat(res.values())  # open target phewas results 
-        as_bin_info = pd.concat(test_df.values())  # atac-starr + human acceleration bin results corresponding to phewas variants
+        
 
     else:
-        otg_phewas_results, as_bin_info = None, None
+        otg_phewas_results = None
     
-    return otg_phewas_results, as_bin_info
+    return otg_phewas_results
