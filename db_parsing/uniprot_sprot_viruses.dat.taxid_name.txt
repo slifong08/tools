@@ -1,974 +1,1948 @@
 NCBI_TaxID=30343	 Dryophytes versicolor (chameleon treefrog).
+
 NCBI_TaxID=8404	 Lithobates pipiens (Northern leopard frog) (Rana pipiens).
+
 NCBI_TaxID=45438	 Lithobates sylvaticus (Wood frog) (Rana sylvatica).
+
 NCBI_TaxID=8316	 Notophthalmus viridescens (Eastern newt) (Triturus viridescens).
+
 NCBI_TaxID=7163	 Aedes vexans (Inland floodwater mosquito) (Culex vexans).
+
 NCBI_TaxID=42431	 Culex territans.
+
 NCBI_TaxID=332058	 Culiseta annulata.
+
 NCBI_TaxID=310513	 Ochlerotatus sollicitans (eastern saltmarsh mosquito).
+
 NCBI_TaxID=329105	 Ochlerotatus taeniorhynchus (Black salt marsh mosquito) (Aedes taeniorhynchus).
+
 NCBI_TaxID=7183	 Psorophora ferox.
+
 NCBI_TaxID=6997	 Acheta domesticus (House cricket).
+
 NCBI_TaxID=168631	 Chilo suppressalis (Asiatic rice borer moth).
+
 NCBI_TaxID=6999	 Gryllus bimaculatus (Two-spotted cricket).
+
 NCBI_TaxID=58607	 Gryllus campestris.
+
 NCBI_TaxID=7108	 Spodoptera frugiperda (Fall armyworm).
+
 NCBI_TaxID=6937	 Ornithodoros (relapsing fever ticks).
+
 NCBI_TaxID=85517	 Phacochoerus aethiopicus (Warthog).
+
 NCBI_TaxID=41426	 Phacochoerus africanus (Warthog).
+
 NCBI_TaxID=273792	 Potamochoerus larvatus (Bushpig).
+
 NCBI_TaxID=9823	 Sus scrofa (Pig).
+
 NCBI_TaxID=94885	 Pantherophis guttatus (Corn snake) (Elaphe guttata).
+
 NCBI_TaxID=9606	 Homo sapiens (Human).
+
 NCBI_TaxID=9913	 Bos taurus (Bovine).
+
 NCBI_TaxID=161934	 Beta vulgaris (Sugar beet).
+
 NCBI_TaxID=4072	 Capsicum annuum (Capsicum pepper).
+
 NCBI_TaxID=82024	 Hyacinthus.
+
 NCBI_TaxID=39639	 Narcissus pseudonarcissus (Daffodil).
+
 NCBI_TaxID=4097	 Nicotiana tabacum (Common tobacco).
+
 NCBI_TaxID=4113	 Solanum tuberosum (Potato).
+
 NCBI_TaxID=3562	 Spinacia oleracea (Spinach).
+
 NCBI_TaxID=13274	 Stellaria media (Common chickweed) (Alsine media).
+
 NCBI_TaxID=13305	 Tulipa.
+
 NCBI_TaxID=97415	 Viola arvensis (European field pansy) (Field violet).
+
 NCBI_TaxID=4045	 Apium graveolens (Celery).
+
 NCBI_TaxID=83862	 Astragalus glycyphyllos (Wild liquorice).
+
 NCBI_TaxID=41386	 Caryopteris incana.
+
 NCBI_TaxID=3827	 Cicer arietinum (Chickpea) (Garbanzo).
+
 NCBI_TaxID=3847	 Glycine max (Soybean) (Glycine hispida).
+
 NCBI_TaxID=35936	 Lablab purpureus (Hyacinth bean) (Dolichos lablab).
+
 NCBI_TaxID=4236	 Lactuca sativa (Garden lettuce).
+
 NCBI_TaxID=3864	 Lens culinaris (Lentil) (Cicer lens).
+
 NCBI_TaxID=3869	 Lupinus.
+
 NCBI_TaxID=145753	 Malva parviflora (Little mallow) (Cheeseweed mallow).
+
 NCBI_TaxID=3879	 Medicago sativa (Alfalfa).
+
 NCBI_TaxID=3885	 Phaseolus vulgaris (Kidney bean) (French bean).
+
 NCBI_TaxID=23113	 Philadelphus.
+
 NCBI_TaxID=3888	 Pisum sativum (Garden pea).
+
 NCBI_TaxID=4081	 Solanum lycopersicum (Tomato) (Lycopersicon esculentum).
+
 NCBI_TaxID=157662	 Teramnus repens.
+
 NCBI_TaxID=60916	 Trifolium incarnatum (Crimson clover).
+
 NCBI_TaxID=85293	 Viburnum opulus (High-bush cranberry).
+
 NCBI_TaxID=3916	 Vigna radiata var. radiata (Mung bean) (Phaseolus aureus).
+
 NCBI_TaxID=3917	 Vigna unguiculata (Cowpea).
+
 NCBI_TaxID=3906	 Vicia faba (Broad bean) (Faba vulgaris).
+
 NCBI_TaxID=15371	 Bromus inermis (Smooth brome grass) (Bromopsis inermis).
+
 NCBI_TaxID=3663	 Cucurbita pepo (Vegetable marrow) (Summer squash).
+
 NCBI_TaxID=3659	 Cucumis sativus (Cucumber).
+
 NCBI_TaxID=4145	 Olea.
+
 NCBI_TaxID=3818	 Arachis hypogaea (Peanut).
+
 NCBI_TaxID=53860	 Coronilla.
+
 NCBI_TaxID=3873	 Lupinus luteus (European yellow lupine).
+
 NCBI_TaxID=3914	 Phaseolus angularis (Azuki bean) (Vigna angularis).
+
 NCBI_TaxID=47097	 Tephrosia.
+
 NCBI_TaxID=3898	 Trifolium.
+
 NCBI_TaxID=3904	 Vicia.
+
 NCBI_TaxID=4627	 Canna.
+
 NCBI_TaxID=41568	 Chrysanthemum morifolium (Florist's daisy) (Dendranthema grandiflorum).
+
 NCBI_TaxID=4688	 Lilium.
+
 NCBI_TaxID=4686	 Asparagus officinalis (Garden asparagus).
+
 NCBI_TaxID=41562	 Dahlia.
+
 NCBI_TaxID=34274	 Gossypium herbaceum (Levant cotton) (Arabian cotton).
+
 NCBI_TaxID=47082	 Melilotus albus (White sweet clover) (Melilotus officinalis subsp. albus).
+
 NCBI_TaxID=137000	 Rosa setigera.
+
 NCBI_TaxID=57577	 Trifolium pratense (Red clover).
+
 NCBI_TaxID=7088	 Lepidoptera (butterflies and moths).
+
 NCBI_TaxID=7742	 Vertebrata.
+
 NCBI_TaxID=662	 Vibrio.
+
 NCBI_TaxID=1408	 Bacillus pumilus (Bacillus mesentericus).
+
 NCBI_TaxID=1423	 Bacillus subtilis.
+
 NCBI_TaxID=5757	 Acanthamoeba polyphaga (Amoeba).
+
 NCBI_TaxID=2287	 Saccharolobus solfataricus (Sulfolobus solfataricus).
+
 NCBI_TaxID=9986	 Oryctolagus cuniculus (Rabbit).
+
 NCBI_TaxID=9836	 Camelus.
+
 NCBI_TaxID=9685	 Felis catus (Cat) (Felis silvestris catus).
+
 NCBI_TaxID=9785	 Loxodonta africana (African elephant).
+
 NCBI_TaxID=29092	 Microtus agrestis (Short-tailed field vole).
+
 NCBI_TaxID=10090	 Mus musculus (Mouse).
+
 NCBI_TaxID=447135	 Myodes glareolus (Bank vole) (Clethrionomys glareolus).
+
 NCBI_TaxID=314293	 Simiiformes.
+
 NCBI_TaxID=9538	 Erythrocebus patas (Red guenon) (Cercopithecus patas).
+
 NCBI_TaxID=9539	 Macaca (macaques).
+
 NCBI_TaxID=9557	 Papio hamadryas (Hamadryas baboon).
+
 NCBI_TaxID=562	 Escherichia coli.
+
 NCBI_TaxID=340055	 Amsacta.
+
 NCBI_TaxID=45479	 Cynomys gunnisoni (Gunnison's prairie dog).
+
 NCBI_TaxID=99825	 Cynomys leucurus (White-tailed prairie dog).
+
 NCBI_TaxID=45480	 Cynomys ludovicianus (Black-tailed prairie dog).
+
 NCBI_TaxID=99826	 Cynomys mexicanus (Mexican prairie dog).
+
 NCBI_TaxID=99827	 Cynomys parvidens (Utah prairie dog).
+
 NCBI_TaxID=30650	 Gliridae (dormice).
+
 NCBI_TaxID=226685	 Heliosciurus ruwenzorii (Ruwenzori sun squirrel).
+
 NCBI_TaxID=9940	 Ovis aries (Sheep).
+
 NCBI_TaxID=90371	 Salmonella typhimurium.
+
 NCBI_TaxID=114055	 Chlorella.
+
 NCBI_TaxID=40674	 Mammalia.
+
 NCBI_TaxID=9681	 Felidae (cat family).
+
 NCBI_TaxID=3630	 Abutilon.
+
 NCBI_TaxID=3635	 Gossypium hirsutum (Upland cotton) (Gossypium mexicanum).
+
 NCBI_TaxID=47605	 Hibiscus.
+
 NCBI_TaxID=96479	 Malva.
+
 NCBI_TaxID=108335	 Sida.
+
 NCBI_TaxID=4071	 Capsicum (peppers).
+
 NCBI_TaxID=3650	 Cucurbitaceae.
+
 NCBI_TaxID=4005	 Linum.
+
 NCBI_TaxID=260885	 Macroptilium lathyroides.
+
 NCBI_TaxID=108453	 Malvastrum coromandelianum.
+
 NCBI_TaxID=3884	 Phaseolus lunatus (Lima bean) (Phaseolus limensis).
+
 NCBI_TaxID=3712	 Brassica oleracea (Wild cabbage).
+
 NCBI_TaxID=197394	 Hewittia sublobata.
+
 NCBI_TaxID=3996	 Jatropha multifida (Coralbush).
+
 NCBI_TaxID=194268	 Laportea.
+
 NCBI_TaxID=3983	 Manihot esculenta (Cassava) (Jatropha manihot).
+
 NCBI_TaxID=3915	 Vigna mungo (Black gram) (Phaseolus mungo).
+
 NCBI_TaxID=157791	 Vigna radiata (Mung bean).
+
 NCBI_TaxID=3662	 Cucurbita moschata (Winter crookneck squash) (Cucurbita pepo var. moschata).
+
 NCBI_TaxID=185024	 Cynanchum acutum.
+
 NCBI_TaxID=4112	 Solanum nigrum (Black nightshade).
+
 NCBI_TaxID=29728	 Sinapis arvensis (Charlock mustard) (Brassica kaber).
+
 NCBI_TaxID=185191	 Sigesbeckia orientalis.
+
 NCBI_TaxID=472	 Acinetobacter sp..
+
 NCBI_TaxID=65700	 Erwinia tracheiphila.
+
 NCBI_TaxID=670	 Vibrio parahaemolyticus.
+
 NCBI_TaxID=630	 Yersinia enterocolitica.
+
 NCBI_TaxID=28901	 Salmonella enterica (Salmonella choleraesuis).
+
 NCBI_TaxID=624	 Shigella sonnei.
+
 NCBI_TaxID=492670	 Bacillus velezensis.
+
 NCBI_TaxID=287	 Pseudomonas aeruginosa.
+
 NCBI_TaxID=543	 Enterobacteriaceae.
+
 NCBI_TaxID=1639	 Listeria monocytogenes.
+
 NCBI_TaxID=9224	 Psittacidae (parrots).
+
 NCBI_TaxID=36229	 Papio hamadryas ursinus (Chacma baboon).
+
 NCBI_TaxID=39432	 Saimiri boliviensis boliviensis (Bolivian squirrel monkey).
+
 NCBI_TaxID=4513	 Hordeum vulgare (Barley).
+
 NCBI_TaxID=4565	 Triticum aestivum (Wheat).
+
 NCBI_TaxID=9505	 Aotus trivirgatus (Three-striped night monkey) (Douroucouli).
+
 NCBI_TaxID=9544	 Macaca mulatta (Rhesus macaque).
+
 NCBI_TaxID=9567	 Mandrillus (forest baboons).
+
 NCBI_TaxID=9598	 Pan troglodytes (Chimpanzee).
+
 NCBI_TaxID=10114	 Rattus.
+
 NCBI_TaxID=42415	 Sigmodon hispidus (Hispid cotton rat).
+
 NCBI_TaxID=38020	 marmosets.
+
 NCBI_TaxID=1313	 Streptococcus pneumoniae.
+
 NCBI_TaxID=1359	 Lactococcus lactis subsp. cremoris (Streptococcus cremoris).
+
 NCBI_TaxID=9927	 Connochaetes taurinus (Blue wildebeest).
+
 NCBI_TaxID=9796	 Equus caballus (Horse).
+
 NCBI_TaxID=9783	 Elephas maximus (Indian elephant).
+
 NCBI_TaxID=99490	 Loxodonta cyclotis (African forest elephant).
+
 NCBI_TaxID=9031	 Gallus gallus (Chicken).
+
 NCBI_TaxID=33414	 Orgyia pseudotsugata (Douglas-fir tussock moth).
+
 NCBI_TaxID=152276	 Amazona oratrix (yellow-headed parrot).
+
 NCBI_TaxID=9521	 Saimiri sciureus (Common squirrel monkey).
+
 NCBI_TaxID=196889	 Rhinolophus macrotis (Big-eared horseshoe bat).
+
 NCBI_TaxID=89399	 Rhinolophus sinicus (Chinese rufous horseshoe bat).
+
 NCBI_TaxID=59479	 Rhinolophus ferrumequinum (Greater horseshoe bat).
+
 NCBI_TaxID=188571	 Rhinolophus pearsonii.
+
 NCBI_TaxID=9675	 Paguma larvata (Masked palm civet).
+
 NCBI_TaxID=9134	 Serinus.
+
 NCBI_TaxID=10129	 Apodemus sylvaticus (European woodmouse).
+
 NCBI_TaxID=36828	 Clostridium botulinum C.
+
 NCBI_TaxID=1491	 Clostridium botulinum.
+
 NCBI_TaxID=1308	 Streptococcus thermophilus.
+
 NCBI_TaxID=295550	 Heteronychus arator (African black beetle).
+
 NCBI_TaxID=50579	 Costelytra zealandica.
+
 NCBI_TaxID=7137	 Galleria mellonella (Greater wax moth).
+
 NCBI_TaxID=4932	 Saccharomyces cerevisiae (Baker's yeast).
+
 NCBI_TaxID=41021	 Hepialidae (ghost moths).
+
 NCBI_TaxID=7158	 Aedes.
+
 NCBI_TaxID=9534	 Chlorocebus aethiops (Green monkey) (Cercopithecus aethiops).
+
 NCBI_TaxID=727	 Haemophilus influenzae.
+
 NCBI_TaxID=1351	 Enterococcus faecalis (Streptococcus faecalis).
+
 NCBI_TaxID=9689	 Panthera leo (Lion).
+
 NCBI_TaxID=7139	 Tortricidae.
+
 NCBI_TaxID=7091	 Bombyx mori (Silk moth).
+
 NCBI_TaxID=83554	 Chlamydia psittaci (Chlamydophila psittaci).
+
 NCBI_TaxID=959	 Bdellovibrio bacteriovorus.
+
 NCBI_TaxID=13489	 Dicentrarchus labrax (European seabass) (Morone labrax).
+
 NCBI_TaxID=215347	 Epinephelus akaara (Hong Kong grouper) (Serranus akaara).
+
 NCBI_TaxID=8267	 Hippoglossus hippoglossus (Atlantic halibut) (Pleuronectes hippoglossus).
+
 NCBI_TaxID=8187	 Lates calcarifer (Barramundi) (Holocentrus calcarifer).
+
 NCBI_TaxID=163134	 Oplegnathus fasciatus (Barred knifejaw) (Scaradon fasciatus).
+
 NCBI_TaxID=2134	 Spiroplasma melliferum.
+
 NCBI_TaxID=9615	 Canis lupus familiaris (Dog) (Canis familiaris).
+
 NCBI_TaxID=8976	 Galliformes.
+
 NCBI_TaxID=9393	 Tupaiidae (tree shrews).
+
 NCBI_TaxID=563177	 Acidianus hospitalis.
+
 NCBI_TaxID=12915	 Acidianus infernus.
+
 NCBI_TaxID=121277	 Pyrobaculum arsenaticum.
+
 NCBI_TaxID=99007	 Pyrobaculum oguniense.
+
 NCBI_TaxID=43080	 Sulfolobus islandicus.
+
 NCBI_TaxID=2284	 Sulfolobus.
+
 NCBI_TaxID=2286	 Saccharolobus shibatae (Sulfolobus shibatae).
+
 NCBI_TaxID=7227	 Drosophila melanogaster (Fruit fly).
+
 NCBI_TaxID=7160	 Aedes albopictus (Asian tiger mosquito) (Stegomyia albopicta).
+
 NCBI_TaxID=23159	 Crataegus (hawthorn).
+
 NCBI_TaxID=36610	 Cydonia oblonga (Quince) (Pyrus cydonia).
+
 NCBI_TaxID=3752	 Malus sylvestris.
+
 NCBI_TaxID=36596	 Prunus armeniaca (Apricot) (Armeniaca vulgaris).
+
 NCBI_TaxID=3758	 Prunus domestica (Garden plum).
+
 NCBI_TaxID=3760	 Prunus persica (Peach) (Amygdalus persica).
+
 NCBI_TaxID=114937	 Prunus spinosa (Blackthorn) (Prunus domestica var. spinosa).
+
 NCBI_TaxID=23211	 Pyrus communis (Pear) (Pyrus domestica).
+
 NCBI_TaxID=9665	 Mustela.
+
 NCBI_TaxID=47741	 Atkinsonella hypoxylon.
+
 NCBI_TaxID=59895	 Cynara cardunculus var. scolymus (Globe artichoke) (Cynara scolymus).
+
 NCBI_TaxID=3899	 Trifolium repens (Creeping white clover).
+
 NCBI_TaxID=9103	 Meleagris gallopavo (Wild turkey).
+
 NCBI_TaxID=316597	 Aedes pseudoscutellaris (Mosquito) (Stegomyia pseudoscutellaris).
+
 NCBI_TaxID=8018	 Oncorhynchus keta (Chum salmon) (Salmo keta).
+
 NCBI_TaxID=28800	 Notemigonus crysoleucas (Golden shiner) (Cyprinus crysoleucas).
+
 NCBI_TaxID=90988	 Pimephales promelas (Fathead minnow).
+
 NCBI_TaxID=7959	 Ctenopharyngodon idella (Grass carp) (Leuciscus idella).
+
 NCBI_TaxID=259022	 Urocitellus parryii kennicottii.
+
 NCBI_TaxID=106566	 Malus sieboldii.
+
 NCBI_TaxID=4640	 Musa.
+
 NCBI_TaxID=116991	 Gracula.
+
 NCBI_TaxID=9223	 Psittaciformes.
+
 NCBI_TaxID=343494	 Beta macrocarpa (Beet) (Beta vulgaris subsp. macrocarpa).
+
 NCBI_TaxID=40559	 Botryotinia fuckeliana (Noble rot fungus) (Botrytis cinerea).
+
 NCBI_TaxID=274	 Thermus thermophilus.
+
 NCBI_TaxID=1280	 Staphylococcus aureus.
+
 NCBI_TaxID=216591	 Burkholderia cenocepacia (strain ATCC BAA-245 / DSM 16553 / LMG 16656 / NCTC 13227 / J2315 / CF5610) (Burkholderia cepacia (strain J2315)).
+
 NCBI_TaxID=590	 Salmonella.
+
 NCBI_TaxID=77097	 Halomonas aquamarina.
+
 NCBI_TaxID=1357	 Lactococcus (lactic streptococci).
+
 NCBI_TaxID=1358	 Lactococcus lactis.
+
 NCBI_TaxID=1763	 Mycobacterium.
+
 NCBI_TaxID=319	 Pseudomonas savastanoi pv. phaseolicola (Pseudomonas syringae pv. phaseolicola).
+
 NCBI_TaxID=340	 Xanthomonas campestris pv. campestris.
+
 NCBI_TaxID=498388	 Escherichia coli C.
+
 NCBI_TaxID=28107	 Pseudoalteromonas espejiana.
+
 NCBI_TaxID=471	 Acinetobacter calcoaceticus.
+
 NCBI_TaxID=584	 Proteus mirabilis.
+
 NCBI_TaxID=294	 Pseudomonas fluorescens.
+
 NCBI_TaxID=303	 Pseudomonas putida (Arthrobacter siderocapsulatus).
+
 NCBI_TaxID=666	 Vibrio cholerae.
+
 NCBI_TaxID=90370	 Salmonella typhi.
+
 NCBI_TaxID=615	 Serratia marcescens.
+
 NCBI_TaxID=314227	 Xanthomonas campestris pv. oryzae.
+
 NCBI_TaxID=3709	 Brassica napus subsp. rapifera.
+
 NCBI_TaxID=138011	 Brassica napus var. napus.
+
 NCBI_TaxID=3710	 Brassica nigra (Black mustard) (Sinapis nigra).
+
 NCBI_TaxID=3715	 Brassica oleracea var. botrytis (Cauliflower).
+
 NCBI_TaxID=3716	 Brassica oleracea var. capitata (Cabbage).
+
 NCBI_TaxID=51350	 Brassica rapa subsp. rapa (Turnip).
+
 NCBI_TaxID=3654	 Citrullus lanatus (Watermelon) (Citrullus vulgaris).
+
 NCBI_TaxID=3721	 Crambe hispanica subsp. abyssinica (Abyssinian kale) (Crambe abyssinica).
+
 NCBI_TaxID=4232	 Helianthus annuus (Common sunflower).
+
 NCBI_TaxID=103529	 Phlox drummondii (Annual phlox).
+
 NCBI_TaxID=3726	 Raphanus sativus (Radish) (Raphanus raphanistrum var. sativus).
+
 NCBI_TaxID=3900	 Trifolium subterraneum (Subterranean clover).
+
 NCBI_TaxID=146531	 Avena byzantina.
+
 NCBI_TaxID=4498	 Avena sativa (Oat).
+
 NCBI_TaxID=4521	 Lolium multiflorum (Italian ryegrass) (Lolium perenne subsp. multiflorum).
+
 NCBI_TaxID=4522	 Lolium perenne (Perennial ryegrass).
+
 NCBI_TaxID=4530	 Oryza sativa (Rice).
+
 NCBI_TaxID=4550	 Secale cereale (Rye).
+
 NCBI_TaxID=4577	 Zea mays (Maize).
+
 NCBI_TaxID=3702	 Arabidopsis thaliana (Mouse-ear cress).
+
 NCBI_TaxID=3705	 Brassica.
+
 NCBI_TaxID=3725	 Raphanus.
+
 NCBI_TaxID=278075	 Dianthus barbatus.
+
 NCBI_TaxID=3570	 Dianthus caryophyllus (Carnation) (Clove pink).
+
 NCBI_TaxID=118431	 Dianthus chinensis.
+
 NCBI_TaxID=288950	 Dianthus superbus.
+
 NCBI_TaxID=3572	 Saponaria officinalis (Common soapwort) (Lychnis saponaria).
+
 NCBI_TaxID=3681	 Begonia.
+
 NCBI_TaxID=3750	 Malus domestica (Apple) (Pyrus malus).
+
 NCBI_TaxID=1290580	 Chaetoceros setoense.
+
 NCBI_TaxID=4509	 Dactylis glomerata (Orchard grass) (Cock's-foot grass).
+
 NCBI_TaxID=3653	 Citrullus.
+
 NCBI_TaxID=3668	 Lagenaria siceraria (Bottle gourd) (Lagenaria leucantha).
+
 NCBI_TaxID=2706	 Citrus.
+
 NCBI_TaxID=3656	 Cucumis melo (Muskmelon).
+
 NCBI_TaxID=38236	 Cattleya.
+
 NCBI_TaxID=112603	 Cymbidium aloifolium.
+
 NCBI_TaxID=28471	 Cymbidium hybrid cultivar.
+
 NCBI_TaxID=160533	 Cymbidium iridioides.
+
 NCBI_TaxID=38234	 Epidendrum.
+
 NCBI_TaxID=123155	 Laelia.
+
 NCBI_TaxID=45173	 Oncidium.
+
 NCBI_TaxID=120015	 Phaius tancarvilleae (Nun's hood orchid) (Greater swamp orchid).
+
 NCBI_TaxID=36459	 Phalaenopsis.
+
 NCBI_TaxID=141750	 Pholidota imbricata.
+
 NCBI_TaxID=38198	 Vanda.
+
 NCBI_TaxID=78858	 Zygopetalum.
+
 NCBI_TaxID=49237	 Chaetoceros.
+
 NCBI_TaxID=5807	 Cryptosporidium parvum.
+
 NCBI_TaxID=14366	 Cymbidium.
+
 NCBI_TaxID=110876	 Chloris gayana.
+
 NCBI_TaxID=279312	 Ixophorus unisetus.
+
 NCBI_TaxID=4564	 Triticum.
+
 NCBI_TaxID=231460	 Afraegle paniculata.
+
 NCBI_TaxID=159033	 Citrus aurantiifolia (Key lime) (Limonia aurantifolia).
+
 NCBI_TaxID=37656	 Citrus paradisi (Grapefruit).
+
 NCBI_TaxID=85571	 Citrus reticulata (Tangerine).
+
 NCBI_TaxID=159062	 Pamburus missionis.
+
 NCBI_TaxID=3684	 Passiflora (passionflowers).
+
 NCBI_TaxID=109564	 Gynura.
+
 NCBI_TaxID=142762	 Cestrum parqui.
+
 NCBI_TaxID=3559	 Chenopodium album (Fat-hen).
+
 NCBI_TaxID=283210	 Malus pumila (Paradise apple).
+
 NCBI_TaxID=3908	 Vicia sativa (Spring vetch) (Tare).
+
 NCBI_TaxID=8835	 Anas (ducks).
+
 NCBI_TaxID=40085	 Diatraea saccharalis (sugarcane borer).
+
 NCBI_TaxID=4547	 Saccharum officinarum (Sugarcane).
+
 NCBI_TaxID=46031	 Scrophularia californica (California bee plant).
+
 NCBI_TaxID=9651	 Nasua nasua (Ring-tailed coati).
+
 NCBI_TaxID=9654	 Procyon lotor (Raccoon).
+
 NCBI_TaxID=4555	 Setaria italica (Foxtail millet) (Panicum italicum).
+
 NCBI_TaxID=4556	 Setaria viridis (Green bristlegrass) (Setaria italica subsp. viridis).
+
 NCBI_TaxID=29760	 Vitis vinifera (Grape).
+
 NCBI_TaxID=5741	 Giardia intestinalis (Giardia lamblia).
+
 NCBI_TaxID=8842	 Anser (geese).
+
 NCBI_TaxID=34862	 Otospermophilus beecheyi (California ground squirrel) (Spermophilus beecheyi).
+
 NCBI_TaxID=29058	 Helicoverpa armigera (Cotton bollworm) (Heliothis armigera).
+
 NCBI_TaxID=9577	 Hylobatidae (gibbons).
+
 NCBI_TaxID=9593	 Gorilla gorilla (western gorilla).
+
 NCBI_TaxID=289417	 Helenium amarum.
+
 NCBI_TaxID=35939	 Impatiens.
+
 NCBI_TaxID=69079	 Bandicota bengalensis (lesser bandicoot rat).
+
 NCBI_TaxID=9481	 Callithrix.
+
 NCBI_TaxID=9536	 Cercopithecus hamlyni (Owl-faced monkey) (Hamlyn's monkey).
+
 NCBI_TaxID=9520	 Saimiri (squirrel monkeys).
+
 NCBI_TaxID=8899	 Ardeidae (herons).
+
 NCBI_TaxID=51589	 Haloarcula hispanica.
+
 NCBI_TaxID=7100	 Noctuidae (owlet moths).
+
 NCBI_TaxID=6685	 Penaeidae (penaeid shrimps).
+
 NCBI_TaxID=13123	 Lymantria dispar (Gypsy moth) (Porthetria dispar).
+
 NCBI_TaxID=3661	 Cucurbita maxima (Pumpkin) (Winter squash).
+
 NCBI_TaxID=4039	 Daucus carota (Wild carrot).
+
 NCBI_TaxID=480553	 Lolium multiflorum x Lolium perenne.
+
 NCBI_TaxID=5664	 Leishmania major.
+
 NCBI_TaxID=63788	 Lilium formosanum.
+
 NCBI_TaxID=452646	 Neovison vison (American mink) (Mustela vison).
+
 NCBI_TaxID=5341	 Agaricus bisporus (White button mushroom).
+
 NCBI_TaxID=47065	 Astragalus sinicus (Chinese milk vetch).
+
 NCBI_TaxID=183675	 Miscanthus sacchariflorus.
+
 NCBI_TaxID=38833	 Micromonas pusilla (Picoplanktonic green alga) (Chromulina pusilla).
+
 NCBI_TaxID=217170	 Axonopus compressus.
+
 NCBI_TaxID=4543	 Cenchrus americanus (Pearl millet) (Pennisetum glaucum).
+
 NCBI_TaxID=281129	 Cenchrus polystachios.
+
 NCBI_TaxID=4505	 Coix lacryma-jobi (Job's tears).
+
 NCBI_TaxID=270102	 Dactyloctenium aegyptium.
+
 NCBI_TaxID=66017	 Digitaria.
+
 NCBI_TaxID=90396	 Echinochloa colona.
+
 NCBI_TaxID=4511	 Eleusine coracana (Indian finger millet) (Ragi).
+
 NCBI_TaxID=29674	 Eleusine indica (Goosegrass) (Cynosurus indicus).
+
 NCBI_TaxID=59788	 Megathyrsus maximus.
+
 NCBI_TaxID=29709	 Melinis repens (Natal redtop) (Rhynchelytrum repens).
+
 NCBI_TaxID=4538	 Oryza glaberrima (African rice).
+
 NCBI_TaxID=158143	 Paspalum conjugatum (Hilo grass).
+
 NCBI_TaxID=147272	 Paspalum notatum (Bahia grass).
+
 NCBI_TaxID=173849	 Paspalum scrobiculatum.
+
 NCBI_TaxID=300125	 Rottboellia cochinchinensis.
+
 NCBI_TaxID=192628	 Setaria barbata.
+
 NCBI_TaxID=240436	 Urochloa deflexa.
+
 NCBI_TaxID=154697	 Odontoglossum.
+
 NCBI_TaxID=197796	 Plantago asiatica.
+
 NCBI_TaxID=37547	 Spodoptera eridania (Southern armyworm).
+
 NCBI_TaxID=36483	 Cricetidae sp. (Hamster).
+
 NCBI_TaxID=10116	 Rattus norvegicus (Rat).
+
 NCBI_TaxID=9989	 Rodentia.
+
 NCBI_TaxID=91525	 Sorghum arundinaceum.
+
 NCBI_TaxID=4558	 Sorghum bicolor (Sorghum) (Sorghum vulgare).
+
 NCBI_TaxID=5076	 Penicillium chrysogenum (Penicillium notatum).
+
 NCBI_TaxID=3859	 Lathyrus odoratus (Sweet pea).
+
 NCBI_TaxID=70936	 Medicago arabica.
+
 NCBI_TaxID=8932	 Columba livia (Rock dove).
+
 NCBI_TaxID=3649	 Carica papaya (Papaya).
+
 NCBI_TaxID=108055	 Ullucus tuberosus (Olluco).
+
 NCBI_TaxID=58090	 Muhlenbergia.
+
 NCBI_TaxID=38727	 Panicum virgatum (Blackwell switchgrass).
+
 NCBI_TaxID=37495	 Euphorbia pulcherrima (Poinsettia) (Poinsettia pulcherrima).
+
 NCBI_TaxID=3821	 Cajanus cajan (Pigeon pea) (Cajanus indicus).
+
 NCBI_TaxID=174212	 Pothos.
+
 NCBI_TaxID=73824	 Populus balsamifera (Balsam poplar).
+
 NCBI_TaxID=3696	 Populus deltoides (Eastern poplar) (Eastern cottonwood).
+
 NCBI_TaxID=75703	 Populus maximowiczii (Japanese poplar).
+
 NCBI_TaxID=3691	 Populus nigra (Lombardy poplar).
+
 NCBI_TaxID=3694	 Populus trichocarpa (Western balsam poplar) (Populus balsamifera subsp. trichocarpa).
+
 NCBI_TaxID=3711	 Brassica campestris (Field mustard).
+
 NCBI_TaxID=32247	 Rubus idaeus (Raspberry).
+
 NCBI_TaxID=75079	 Rubus occidentalis (Black raspberry).
+
 NCBI_TaxID=75100	 Rubus ursinus (California blackberry).
+
 NCBI_TaxID=47083	 Melilotus officinalis (Yellow sweet clover) (Trifolium officinale).
+
 NCBI_TaxID=49450	 Digitalis lanata (Grecian foxglove).
+
 NCBI_TaxID=75806	 Eutrema japonicum (Wasabi plant) (Eutrema wasabi).
+
 NCBI_TaxID=39414	 Plantago lanceolata (English plantain) (Ribwort plantain).
+
 NCBI_TaxID=29818	 Plantago major (Common plantain).
+
 NCBI_TaxID=65951	 Rorippa amphibia (Great yellow-cress) (Nasturtium amphibium).
+
 NCBI_TaxID=65952	 Rorippa sylvestris (Creeping yellow-cress) (Nasturtium sylvestre).
+
 NCBI_TaxID=52853	 Silene latifolia subsp. alba (White campion) (Lychnis alba).
+
 NCBI_TaxID=203579	 Sisymbrium loeselii.
+
 NCBI_TaxID=4534	 Oryza latifolia.
+
 NCBI_TaxID=4536	 Oryza nivara (Indian wild rice) (Oryza sativa f. spontanea).
+
 NCBI_TaxID=4529	 Oryza rufipogon (Brownbeard rice) (Asian wild rice).
+
 NCBI_TaxID=47085	 Medicago lupulina.
+
 NCBI_TaxID=70957	 Medicago minima.
+
 NCBI_TaxID=74514	 Trifolium glomeratum.
+
 NCBI_TaxID=20997	 Wisteria sinensis.
+
 NCBI_TaxID=3829	 Crotalaria juncea (Sunn hemp).
+
 NCBI_TaxID=40336	 Mucuna.
+
 NCBI_TaxID=28911	 Allium cepa var. aggregatum (Shallot) (Allium ascalonicum).
+
 NCBI_TaxID=9702	 Otariidae (fur seals & sea lions).
+
 NCBI_TaxID=63459	 Chenopodium quinoa (Quinoa).
+
 NCBI_TaxID=57918	 Fragaria vesca (Woodland strawberry) (Potentilla vesca).
+
 NCBI_TaxID=59498	 Rubus rosifolius.
+
 NCBI_TaxID=2133	 Spiroplasma citri.
+
 NCBI_TaxID=173841	 Cenchrus echinatus.
+
 NCBI_TaxID=13306	 Tulipa gesneriana (Garden tulip).
+
 NCBI_TaxID=3749	 Malus.
+
 NCBI_TaxID=3766	 Pyrus (pears).
+
 NCBI_TaxID=4111	 Solanum melongena (Eggplant) (Aubergine).
+
 NCBI_TaxID=29777	 Tolmiea menziesii.
+
 NCBI_TaxID=5130	 Hypomyces.
+
 NCBI_TaxID=180540	 Moricandia arvensis (Purple mistress) (Brassica arvensis).
+
 NCBI_TaxID=43071	 Eryngium planum.
+
 NCBI_TaxID=4090	 Nicotiana glauca (Glaucous tobacco) (Tree tobacco).
+
 NCBI_TaxID=130426	 Allium chinense.
+
 NCBI_TaxID=66262	 Chenopodium amaranticolor.
+
 NCBI_TaxID=81866	 Nicotiana clevelandii (Wild tobacco).
+
 NCBI_TaxID=4151	 Antirrhinum majus (Garden snapdragon).
+
 NCBI_TaxID=46246	 Delphinium.
+
 NCBI_TaxID=4101	 Petunia.
+
 NCBI_TaxID=13707	 Tagetes (marigolds).
+
 NCBI_TaxID=22868	 Anemone.
+
 NCBI_TaxID=90645	 Bacopa.
+
 NCBI_TaxID=4281	 Cornus.
+
 NCBI_TaxID=66679	 Daphne.
+
 NCBI_TaxID=38871	 Fraxinus (ash trees).
+
 NCBI_TaxID=49747	 Gladiolus.
+
 NCBI_TaxID=16107	 Hemerocallis.
+
 NCBI_TaxID=23109	 Hydrangea.
+
 NCBI_TaxID=127142	 Impatiens walleriana.
+
 NCBI_TaxID=26378	 Iris.
+
 NCBI_TaxID=4382	 Lobelia.
+
 NCBI_TaxID=21819	 Mentha.
+
 NCBI_TaxID=4030	 Pelargonium.
+
 NCBI_TaxID=103544	 Phlox subulata.
+
 NCBI_TaxID=3582	 Portulaca.
+
 NCBI_TaxID=42229	 Prunus avium (Cherry) (Cerasus avium).
+
 NCBI_TaxID=137206	 Prunus incisa.
+
 NCBI_TaxID=1358727	 Prunus serrula.
+
 NCBI_TaxID=97321	 Prunus serrulata.
+
 NCBI_TaxID=132459	 Pueraria montana.
+
 NCBI_TaxID=23216	 Rubus (bramble).
+
 NCBI_TaxID=211815	 Rubus plicatus.
+
 NCBI_TaxID=69266	 Vaccinium corymbosum (Highbush blueberry).
+
 NCBI_TaxID=42337	 Bidens pilosa (Hairy beggarticks) (Cobbler's pegs).
+
 NCBI_TaxID=9394	 Tupaia.
+
 NCBI_TaxID=9491	 Saguinus imperator (Emperor tamarin).
+
 NCBI_TaxID=3700	 Brassicaceae.
+
 NCBI_TaxID=4076	 Datura stramonium (Jimsonweed) (Common thornapple).
+
 NCBI_TaxID=239686	 Datura stramonium var. tatula.
+
 NCBI_TaxID=9995	 Marmota monax (Woodchuck).
+
 NCBI_TaxID=9519	 Lagothrix lagotricha (Brown woolly monkey) (Humboldt's woolly monkey).
+
 NCBI_TaxID=3708	 Brassica napus (Rape).
+
 NCBI_TaxID=83334	 Escherichia coli O157:H7.
+
 NCBI_TaxID=82600	 Cydia pomonella (Codling moth).
+
 NCBI_TaxID=320016	 Xestia.
+
 NCBI_TaxID=85585	 Adoxophyes honmai (Smaller tea tortrix moth).
+
 NCBI_TaxID=7119	 Antheraea pernyi (Chinese oak silk moth) (Bombyx pernyi).
+
 NCBI_TaxID=7141	 Choristoneura fumiferana (Spruce budworm moth) (Archips fumiferana).
+
 NCBI_TaxID=174822	 Mamestra configurata (bertha armyworm).
+
 NCBI_TaxID=7113	 Helicoverpa zea (Corn earworm moth) (Heliothis zea).
+
 NCBI_TaxID=29057	 Ostrinia nubilalis (European corn borer) (Pyralis nubilalis).
+
 NCBI_TaxID=2271	 Thermoproteus tenax.
+
 NCBI_TaxID=33113	 Atropa belladonna (Belladonna) (Deadly nightshade).
+
 NCBI_TaxID=1584	 Lactobacillus delbrueckii.
+
 NCBI_TaxID=286	 Pseudomonas.
+
 NCBI_TaxID=3641	 Theobroma cacao (Cacao) (Cocoa).
+
 NCBI_TaxID=65352	 Erysimum.
+
 NCBI_TaxID=45840	 Solanum seaforthianum (Brazilian nightshade).
+
 NCBI_TaxID=53866	 Desmodium.
+
 NCBI_TaxID=53889	 Indigofera australis.
+
 NCBI_TaxID=76709	 Kennedia rubicunda.
+
 NCBI_TaxID=49454	 Nicotiana velutina.
+
 NCBI_TaxID=58889	 Ononis.
+
 NCBI_TaxID=304155	 Physalis heterophylla.
+
 NCBI_TaxID=866555	 Eremochloa ophiuroides.
+
 NCBI_TaxID=158163	 Stenotaphrum secundatum.
+
 NCBI_TaxID=51351	 Brassica rapa subsp. pekinensis (Chinese cabbage) (Brassica pekinensis).
+
 NCBI_TaxID=82359	 Cardamine lilacina.
+
 NCBI_TaxID=283036	 Sander vitreus (Walleye) (Perca vitrea).
+
 NCBI_TaxID=9646	 Ailuropoda melanoleuca (Giant panda).
+
 NCBI_TaxID=9649	 Ailurus fulgens (Lesser panda) (Red panda).
+
 NCBI_TaxID=9704	 Zalophus californianus (California sealion).
+
 NCBI_TaxID=9402	 Pteropus alecto (Black flying fox).
+
 NCBI_TaxID=9403	 Pteropus poliocephalus (Grey-headed flying fox).
+
 NCBI_TaxID=94117	 Pteropus scapulatus (Little red flying fox).
+
 NCBI_TaxID=58060	 Cynopterus brachyotis (Lesser short-nosed fruit bat) (Pachysoma brachyotis).
+
 NCBI_TaxID=58065	 Eonycteris spelaea (Lesser dawn bat) (Macroglossus spelaeus).
+
 NCBI_TaxID=9405	 Pteropus hypomelanus (Island flying fox) (Variable flying fox).
+
 NCBI_TaxID=132908	 Pteropus vampyrus (Large flying fox).
+
 NCBI_TaxID=153297	 Scotophilus kuhlii (Lesser asiatic yellow bat).
+
 NCBI_TaxID=9709	 Phocidae (true seals).
+
 NCBI_TaxID=9915	 Bos indicus (Zebu).
+
 NCBI_TaxID=89462	 Bubalus bubalis (Domestic water buffalo).
+
 NCBI_TaxID=9925	 Capra hircus (Goat).
+
 NCBI_TaxID=9933	 Gazella (gazelles).
+
 NCBI_TaxID=9894	 Giraffa camelopardalis (Giraffe).
+
 NCBI_TaxID=9832	 Hippopotamus.
+
 NCBI_TaxID=9821	 Suidae (pigs).
+
 NCBI_TaxID=10144	 Cavia cutleri (Guinea pig).
+
 NCBI_TaxID=37347	 Tupaia belangeri (Common tree shrew) (Tupaia glis belangeri).
+
 NCBI_TaxID=58271	 Culicoides.
+
 NCBI_TaxID=9793	 Equus asinus (Donkey) (Equus africanus asinus).
+
 NCBI_TaxID=252607	 Lutzomyia.
+
 NCBI_TaxID=7370	 Musca domestica (House fly).
+
 NCBI_TaxID=7190	 Simuliidae (black flies).
+
 NCBI_TaxID=1129	 Synechococcus.
+
 NCBI_TaxID=470	 Acinetobacter baumannii.
+
 NCBI_TaxID=269667	 Acidianus convivator.
+
 NCBI_TaxID=1386	 Bacillus.
+
 NCBI_TaxID=156174	 Haptolina ericina.
+
 NCBI_TaxID=10141	 Cavia porcellus (Guinea pig).
+
 NCBI_TaxID=9600	 Pongo pygmaeus (Bornean orangutan).
+
 NCBI_TaxID=7996	 Ictaluridae (bullhead catfishes).
+
 NCBI_TaxID=29159	 Crassostrea gigas (Pacific oyster) (Crassostrea angulata).
+
 NCBI_TaxID=6579	 Pecten maximus (King scallop) (Pilgrim's clam).
+
 NCBI_TaxID=36893	 Pyramimonas plurioculata.
+
 NCBI_TaxID=33659	 Phaeocystis pouchetii.
+
 NCBI_TaxID=94231	 Epinephelus.
+
 NCBI_TaxID=8163	 Lateolabrax.
+
 NCBI_TaxID=8160	 Seriola.
+
 NCBI_TaxID=8237	 Thunnus thynnus (Atlantic bluefin tuna) (Scomber thynnus).
+
 NCBI_TaxID=9872	 Odocoileus hemionus (Mule deer) (Cervus hemionus).
+
 NCBI_TaxID=1717	 Corynebacterium diphtheriae.
+
 NCBI_TaxID=80866	 Delftia acidovorans (Pseudomonas acidovorans) (Comamonas acidovorans).
+
 NCBI_TaxID=9528	 Cercopithecinae.
+
 NCBI_TaxID=69319	 Microplitis demolitor.
+
 NCBI_TaxID=9554	 Papio (baboons).
+
 NCBI_TaxID=9565	 Theropithecus gelada (Gelada baboon).
+
 NCBI_TaxID=6935	 Ixodida (ticks).
+
 NCBI_TaxID=634157	 Halorubrum sp. PV6.
+
 NCBI_TaxID=9906	 Bos javanicus (Wild banteng).
+
 NCBI_TaxID=38626	 Phascolarctos cinereus (Koala).
+
 NCBI_TaxID=6939	 Ixodidae (hardbacked ticks).
+
 NCBI_TaxID=9596	 Pan (chimpanzees).
+
 NCBI_TaxID=9527	 Cercopithecidae (Old World monkeys).
+
 NCBI_TaxID=34610	 Amblyomma variegatum (Tropical bont tick).
+
 NCBI_TaxID=210652	 Mungos mungo (Banded mongoose).
+
 NCBI_TaxID=34631	 Rhipicephalus appendiculatus (Brown ear tick).
+
 NCBI_TaxID=6941	 Rhipicephalus microplus (Cattle tick) (Boophilus microplus).
+
 NCBI_TaxID=9518	 Lagothrix (woolly monkeys).
+
 NCBI_TaxID=65742	 Melanoplus sanguinipes (Migratory grasshopper).
+
 NCBI_TaxID=9788	 Equidae (horses).
+
 NCBI_TaxID=971	 Selenomonas ruminantium.
+
 NCBI_TaxID=518	 Bordetella bronchiseptica (Alcaligenes bronchisepticus).
+
 NCBI_TaxID=58712	 Salmonella anatum.
+
 NCBI_TaxID=623	 Shigella flexneri.
+
 NCBI_TaxID=8847	 Anser sp. (goose).
+
 NCBI_TaxID=8049	 Gadus morhua (Atlantic cod).
+
 NCBI_TaxID=8019	 Oncorhynchus kisutch (Coho salmon) (Salmo kisutch).
+
 NCBI_TaxID=8022	 Oncorhynchus mykiss (Rainbow trout) (Salmo gairdneri).
+
 NCBI_TaxID=8060	 Pollachius virens (Saithe) (Gadus virens).
+
 NCBI_TaxID=8030	 Salmo salar (Atlantic salmon).
+
 NCBI_TaxID=8032	 Salmo trutta (Brown trout).
+
 NCBI_TaxID=10026	 Cricetinae (hamsters).
+
 NCBI_TaxID=9506	 Ateles.
+
 NCBI_TaxID=9541	 Macaca fascicularis (Crab-eating macaque) (Cynomolgus monkey).
+
 NCBI_TaxID=90387	 Macaca leonina (Northern pig-tailed macaque) (Macaca nemestrina leonina).
+
 NCBI_TaxID=9545	 Macaca nemestrina (Pig-tailed macaque).
+
 NCBI_TaxID=328804	 Pteropus conspicillatus (Spectacled flying fox).
+
 NCBI_TaxID=446909	 Saccolaimus.
+
 NCBI_TaxID=109482	 Myotis blythii (Lesser mouse-eared bat).
+
 NCBI_TaxID=9970	 Syncerus caffer (African buffalo).
+
 NCBI_TaxID=7198	 Phlebotominae (sandflies).
+
 NCBI_TaxID=50557	 Insecta.
+
 NCBI_TaxID=72011	 Acanthopagrus schlegelii (Black porgy).
+
 NCBI_TaxID=8255	 Paralichthys olivaceus (Bastard halibut) (Hippoglossus olivaceus).
+
 NCBI_TaxID=61084	 Plecoglossus altivelis (Ayu).
+
 NCBI_TaxID=160818	 Sebastes inermis (Dark-banded rockfish).
+
 NCBI_TaxID=8028	 Salmo.
+
 NCBI_TaxID=187017	 Murina leucogaster (Greater tube-nosed bat).
+
 NCBI_TaxID=10045	 Gerbillinae (gerbils).
+
 NCBI_TaxID=29031	 Phlebotomus papatasi (Sandfly).
+
 NCBI_TaxID=109479	 Myotis mystacinus (Whiskered bat).
+
 NCBI_TaxID=43191	 Embergeria.
+
 NCBI_TaxID=43208	 Reichardia tingitana.
+
 NCBI_TaxID=255580	 Sonchus hydrophilus.
+
 NCBI_TaxID=50207	 Sonchus oleraceus (Common sowthistle).
+
 NCBI_TaxID=300124	 Rottboellia.
+
 NCBI_TaxID=4554	 Setaria.
+
 NCBI_TaxID=269271	 Chodsigoa caovansunga (Van Sung's shrew).
+
 NCBI_TaxID=126289	 Gracilinanus microtarsus (Brazilian gracile mouse opossum).
+
 NCBI_TaxID=203314	 Gobiosoma bosc (Naked goby) (Gobius bosc).
+
 NCBI_TaxID=7962	 Cyprinus carpio (Common carp).
+
 NCBI_TaxID=80764	 Aphis.
+
 NCBI_TaxID=4460	 Colocasia esculenta (Wild taro) (Arum esculentum).
+
 NCBI_TaxID=469753	 Culicoides brevitarsis.
+
 NCBI_TaxID=59291	 Coregonus lavaretus (Common whitefish) (Salmo lavaretus).
+
 NCBI_TaxID=8010	 Esox lucius (Northern pike).
+
 NCBI_TaxID=74940	 Oncorhynchus tshawytscha (Chinook salmon) (Salmo tshawytscha).
+
 NCBI_TaxID=8040	 Salvelinus namaycush (Lake trout) (Salmo namaycush).
+
 NCBI_TaxID=36185	 Thymallus thymallus (Grayling) (Salmo thymallus).
+
 NCBI_TaxID=9433	 Miniopterus schreibersii (Schreibers's long-fingered bat) (Vespertilio schreibersii).
+
 NCBI_TaxID=48011	 Oecomys bicolor (Bicolored arboreal rice rat).
+
 NCBI_TaxID=48012	 Oecomys roberti (Robert's arboreal rice rat).
+
 NCBI_TaxID=42520	 Peromyscus californicus (California mouse).
+
 NCBI_TaxID=89099	 Hylaeamys megacephalus (Large-headed rice rat) (Oryzomys megacephalus).
+
 NCBI_TaxID=483436	 Eriophyes pyri (pearleaf blister mite).
+
 NCBI_TaxID=36599	 Sorbus aucuparia (European mountain ash) (Rowan).
+
 NCBI_TaxID=8574	 Boa constrictor (Boa).
+
 NCBI_TaxID=157541	 Zygodontomys brevicauda.
+
 NCBI_TaxID=10111	 Praomys (African soft-furred rats).
+
 NCBI_TaxID=29095	 Akodon azarae (Azara's grass mouse).
+
 NCBI_TaxID=10080	 Bolomys.
+
 NCBI_TaxID=56211	 Calomys laucha (Small vesper mouse).
+
 NCBI_TaxID=56212	 Calomys musculinus (Drylands vesper mouse).
+
 NCBI_TaxID=10112	 Mastomys natalensis (African soft-furred rat) (Praomys natalensis).
+
 NCBI_TaxID=56210	 Calomys callosus (Large vesper mouse).
+
 NCBI_TaxID=10036	 Mesocricetus auratus (Golden hamster).
+
 NCBI_TaxID=530180	 Sooretamys angouya (Paraguayan rice rat) (Oryzomys angouya).
+
 NCBI_TaxID=530178	 Nephelomys albigularis (Tomes's rice rat) (Oryzomys albigularis).
+
 NCBI_TaxID=134742	 Sigmodon alstoni.
+
 NCBI_TaxID=38413	 Eragrostis.
+
 NCBI_TaxID=9416	 Artibeus (neotropical fruit bats).
+
 NCBI_TaxID=42407	 Neotoma (wood rats).
+
 NCBI_TaxID=587753	 Pseudomonas chlororaphis.
+
 NCBI_TaxID=55510	 Twortvirus twort.
+
 NCBI_TaxID=272623	 Lactococcus lactis subsp. lactis (strain IL1403) (Streptococcus lactis).
+
 NCBI_TaxID=29094	 Abrothrix longipilis (Long-haired grass mouse) (Akodon longipilis).
+
 NCBI_TaxID=89122	 Loxodontomys micropus (Southern big-eared mouse) (Auliscomys micropus).
+
 NCBI_TaxID=37015	 Oligoryzomys chacoensis (Chacoan pygmy rice rat).
+
 NCBI_TaxID=218824	 Oligoryzomys flavescens (yellow pygmy rice rat).
+
 NCBI_TaxID=137207	 Oligoryzomys longicaudatus (Long-tailed pygmy rice rat).
+
 NCBI_TaxID=37019	 Oligoryzomys sp..
+
 NCBI_TaxID=9368	 Atelerix albiventris (Middle-African hedgehog) (Four-toed hedgehog).
+
 NCBI_TaxID=9858	 Capreolus capreolus (European roe deer).
+
 NCBI_TaxID=49202	 Dermacentor marginatus (Ornate sheep tick) (Acarus marginatus).
+
 NCBI_TaxID=1027255	 Haemaphysalis intermedia.
+
 NCBI_TaxID=49204	 Haemaphysalis punctata.
+
 NCBI_TaxID=490559	 Haemaphysalis sulcata.
+
 NCBI_TaxID=572043	 Hyalomma detritum.
+
 NCBI_TaxID=34626	 Hyalomma dromedarii (Camel tick).
+
 NCBI_TaxID=34627	 Hyalomma marginatum.
+
 NCBI_TaxID=72855	 Hyalomma truncatum.
+
 NCBI_TaxID=34613	 Ixodes ricinus (Common tick) (Acarus ricinus).
+
 NCBI_TaxID=59656	 Ixodes vespertilionis.
+
 NCBI_TaxID=34611	 Rhipicephalus annulatus.
+
 NCBI_TaxID=67831	 Rhipicephalus bursa (Tick).
+
 NCBI_TaxID=60189	 Rhipicephalus decoloratus (African blue tick) (Boophilus decoloratus).
+
 NCBI_TaxID=136141	 Rhipicephalus geigyi.
+
 NCBI_TaxID=34632	 Rhipicephalus sanguineus (Brown dog tick) (Ixodes sanguineus).
+
 NCBI_TaxID=327507	 Xerus erythropus (Striped ground squirrel).
+
 NCBI_TaxID=53527	 Culex.
+
 NCBI_TaxID=9850	 Cervidae (deer).
+
 NCBI_TaxID=7162	 Ochlerotatus triseriatus (Eastern treehole mosquito) (Aedes triseriatus).
+
 NCBI_TaxID=13712	 Tamias.
+
 NCBI_TaxID=7174	 Culex.
+
 NCBI_TaxID=174825	 Culiseta.
+
 NCBI_TaxID=48086	 Lepus americanus (Snowshoe hare).
+
 NCBI_TaxID=7159	 Aedes aegypti (Yellowfever mosquito) (Culex aegypti).
+
 NCBI_TaxID=34625	 Hyalomma.
+
 NCBI_TaxID=39030	 Apodemus agrarius (Eurasian field mouse).
+
 NCBI_TaxID=54292	 Apodemus flavicollis (Yellow-necked field mouse).
+
 NCBI_TaxID=134909	 Apodemus ponticus (Caucasus field mouse).
+
 NCBI_TaxID=72862	 Hyalomma rufipes (Tick) (Hyalomma marginatum rufipes).
+
 NCBI_TaxID=34630	 Rhipicephalus.
+
 NCBI_TaxID=6944	 Ixodes.
+
 NCBI_TaxID=999462	 Alces americanus (American moose).
+
 NCBI_TaxID=6943	 Amblyomma americanum (Lone star tick).
+
 NCBI_TaxID=9614	 Canis latrans (Coyote).
+
 NCBI_TaxID=9267	 Didelphis virginiana (North American opossum) (Didelphis marsupialis virginiana).
+
 NCBI_TaxID=9874	 Odocoileus virginianus (White-tailed deer).
+
 NCBI_TaxID=10041	 Peromyscus leucopus (White-footed mouse).
+
 NCBI_TaxID=10058	 Microtus pennsylvanicus (Meadow vole).
+
 NCBI_TaxID=297284	 Bos taurus x Bison bison (beefalo).
+
 NCBI_TaxID=9837	 Camelus bactrianus (Bactrian camel).
+
 NCBI_TaxID=10117	 Rattus rattus (Black rat).
+
 NCBI_TaxID=44386	 Haemaphysalis longicornis (Bush tick).
+
 NCBI_TaxID=10042	 Peromyscus maniculatus (North American deer mouse).
+
 NCBI_TaxID=133901	 Frankliniella occidentalis (Western flower thrips) (Euthrips occidentalis).
+
 NCBI_TaxID=163899	 Scirtothrips dorsalis (Chilli thrips).
+
 NCBI_TaxID=161014	 Thrips tabaci.
+
 NCBI_TaxID=47230	 Microtus arvalis (Common vole) (Field vole).
+
 NCBI_TaxID=523745	 Microtus obscurus.
+
 NCBI_TaxID=85584	 Adoxophyes.
+
 NCBI_TaxID=47767	 Agrotis segetum (Turnip moth).
+
 NCBI_TaxID=115354	 Zygaenidae (burnets).
+
 NCBI_TaxID=7116	 Pieris brassicae (White butterfly) (Large white butterfly).
+
 NCBI_TaxID=7111	 Trichoplusia ni (Cabbage looper).
+
 NCBI_TaxID=315458	 Acidianus sp. F28.
+
 NCBI_TaxID=83333	 Escherichia coli (strain K12).
+
 NCBI_TaxID=10088	 Mus.
+
 NCBI_TaxID=48688	 Puffinus puffinus (Manx shearwater).
+
 NCBI_TaxID=8782	 Aves.
+
 NCBI_TaxID=9721	 Cetacea (whales).
+
 NCBI_TaxID=9691	 Panthera pardus (Leopard) (Felis pardus).
+
 NCBI_TaxID=9694	 Panthera tigris (Tiger).
+
 NCBI_TaxID=8830	 Anatidae (waterfowl).
+
 NCBI_TaxID=9761	 Mysticeti (baleen whales).
+
 NCBI_TaxID=9666	 Mustela lutreola (European mink).
+
 NCBI_TaxID=1314	 Streptococcus pyogenes.
+
 NCBI_TaxID=6657	 Crustacea.
+
 NCBI_TaxID=59528	 Connochaetes gnou (Black wildebeest).
+
 NCBI_TaxID=5270	 Ustilago maydis (Corn smut fungus).
+
 NCBI_TaxID=246196	 Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155) (Mycobacterium smegmatis).
+
 NCBI_TaxID=1772	 Mycolicibacterium smegmatis (Mycobacterium smegmatis).
+
 NCBI_TaxID=1311	 Streptococcus agalactiae.
+
 NCBI_TaxID=9352	 Bradypodidae (three-fingered sloths).
+
 NCBI_TaxID=109474	 Crocidura leucodon (Bicoloured white-toothed shrew) (Celebes shrew).
+
 NCBI_TaxID=56798	 Hexaprotodon liberiensis (Pygmy hippopotamus) (Choeropsis liberiensis).
+
 NCBI_TaxID=9844	 Lama glama (Llama).
+
 NCBI_TaxID=8801	 Struthio camelus (Common ostrich).
+
 NCBI_TaxID=9455	 Varecia variegata (Black-and-white ruffed lemur) (Lemur variegatus).
+
 NCBI_TaxID=30538	 Vicugna pacos (Alpaca) (Lama pacos).
+
 NCBI_TaxID=2708	 Citrus limon (Lemon) (Citrus medica var. limon).
+
 NCBI_TaxID=77225	 Pteropodinae.
+
 NCBI_TaxID=77231	 Epomops franqueti (Franquet's epauleted fruit bat).
+
 NCBI_TaxID=77243	 Myonycteris torquata (Little collared fruit bat).
+
 NCBI_TaxID=50193	 Sonchus asper (Spiny sowthistle) (Sonchus oleraceus var. asper).
+
 NCBI_TaxID=9407	 Rousettus aegyptiacus (Egyptian rousette) (Egyptian fruit bat).
+
 NCBI_TaxID=13204	 Phlebotomus perniciosus.
+
 NCBI_TaxID=114194	 Alopecurus aequalis.
+
 NCBI_TaxID=90397	 Echinochloa crus-galli (Barnyard grass) (Panicum crus-galli).
+
 NCBI_TaxID=94400	 Nephotettix cincticeps (Green rice leafhopper) (Selenocephalus cincticeps).
+
 NCBI_TaxID=147271	 Paspalum.
+
 NCBI_TaxID=4058	 Catharanthus roseus (Madagascar periwinkle) (Vinca rosea).
+
 NCBI_TaxID=41043	 Tipula.
+
 NCBI_TaxID=7191	 Simulium.
+
 NCBI_TaxID=107013	 Wiseana cervinata.
+
 NCBI_TaxID=30942	 Pleuronectoidei.
+
 NCBI_TaxID=103373	 Hoplobatrachus tigerinus (Indian bull frog) (Rana tigerina).
+
 NCBI_TaxID=3071	 Chlorella.
+
 NCBI_TaxID=124763	 Amaranthus retroflexus (Redroot amaranth) (American pigweed).
+
 NCBI_TaxID=350892	 Beta vulgaris subsp. maritima (Sea beet) (Beta maritima).
+
 NCBI_TaxID=3555	 Beta vulgaris subsp. vulgaris (Beet).
+
 NCBI_TaxID=200951	 Melilotus indicus (Sourclover) (Yellow sweet clover).
+
 NCBI_TaxID=50192	 Sonchus arvensis (Perennial sowthistle).
+
 NCBI_TaxID=3828	 Crotalaria.
+
 NCBI_TaxID=52517	 Eustoma.
+
 NCBI_TaxID=58987	 Freesia.
+
 NCBI_TaxID=3469	 Papaver somniferum (Opium poppy).
+
 NCBI_TaxID=35938	 Robinia pseudoacacia (Black locust).
+
 NCBI_TaxID=74517	 Trifolium hybridum (Alsike clover).
+
 NCBI_TaxID=97047	 Trifolium vesiculosum.
+
 NCBI_TaxID=78534	 Trigonella foenum-graecum (Fenugreek).
+
 NCBI_TaxID=2711	 Citrus sinensis (Sweet orange) (Citrus aurantium var. sinensis).
+
 NCBI_TaxID=43365	 Clitoria.
+
 NCBI_TaxID=4222	 Carthamus tinctorius (Safflower).
+
 NCBI_TaxID=114280	 Cichorium endivia (Endive).
+
 NCBI_TaxID=13427	 Cichorium intybus (Chicory).
+
 NCBI_TaxID=52518	 Eustoma exaltatum subsp. russellianum (Bluebells) (Eustoma grandiflorum).
+
 NCBI_TaxID=4235	 Lactuca.
+
 NCBI_TaxID=4075	 Datura inoxia (Downy thornapple) (Datura meteloides).
+
 NCBI_TaxID=4107	 Solanum.
+
 NCBI_TaxID=108216	 Arachis pintoi.
+
 NCBI_TaxID=53851	 Cassia.
+
 NCBI_TaxID=35627	 Stylosanthes.
+
 NCBI_TaxID=36595	 Prunus cerasifera (cherry plum).
+
 NCBI_TaxID=105665	 Prunus glandulosa.
+
 NCBI_TaxID=88123	 Prunus salicina.
+
 NCBI_TaxID=45843	 Solanum betaceum (Tamarillo) (Cyphomandra betacea).
+
 NCBI_TaxID=4085	 Nicotiana.
+
 NCBI_TaxID=24663	 Physalis.
+
 NCBI_TaxID=126270	 Alliaria petiolata (Garlic mustard) (Arabis petiolata).
+
 NCBI_TaxID=38206	 Calanthe.
+
 NCBI_TaxID=3719	 Capsella bursa-pastoris (Shepherd's purse) (Thlaspi bursa-pastoris).
+
 NCBI_TaxID=264418	 Hesperis matronalis.
+
 NCBI_TaxID=3618	 Rumex.
+
 NCBI_TaxID=258959	 Tylonycteris pachypus (Lesser bamboo bat) (Vespertilio pachypus).
+
 NCBI_TaxID=105295	 Pipistrellus abramus (Japanese pipistrelle) (Pipistrellus javanicus abramus).
+
 NCBI_TaxID=9408	 Rousettus leschenaultii (Leschenault's rousette).
+
 NCBI_TaxID=10092	 Mus musculus domesticus (western European house mouse).
+
 NCBI_TaxID=9838	 Camelus dromedarius (Dromedary) (Arabian camel).
+
 NCBI_TaxID=58317	 Blicca bjoerkna (white bream).
+
 NCBI_TaxID=182211	 Culex annulus.
+
 NCBI_TaxID=7178	 Culex tritaeniorhynchus (Mosquito).
+
 NCBI_TaxID=9891	 Antilocapra americana (Pronghorn).
+
 NCBI_TaxID=46212	 Culicoides variipennis (Biting midge).
+
 NCBI_TaxID=39442	 Mus musculus musculus (eastern European house mouse).
+
 NCBI_TaxID=60710	 Chlorocebus pygerythrus (Vervet monkey) (Cercopithecus pygerythrus).
+
 NCBI_TaxID=585535	 Helicobacter pylori (strain 35A).
+
 NCBI_TaxID=866344	 Helicobacter pylori (strain F16).
+
 NCBI_TaxID=866345	 Helicobacter pylori (strain F30).
+
 NCBI_TaxID=102608	 Helicobacter pylori (strain F32).
+
 NCBI_TaxID=866346	 Helicobacter pylori (strain F57).
+
 NCBI_TaxID=4032	 Pelargonium zonale.
+
 NCBI_TaxID=184234	 Crocodylus johnsoni (Australian freshwater crocodile).
+
 NCBI_TaxID=8501	 Crocodylus niloticus (Nile crocodile) (African crocodile).
+
 NCBI_TaxID=8502	 Crocodylus porosus (Saltwater crocodile) (Estuarine crocodile).
+
 NCBI_TaxID=1218	 Prochlorococcus.
+
 NCBI_TaxID=7460	 Apis mellifera (Honeybee).
+
 NCBI_TaxID=13163	 Myzus.
+
 NCBI_TaxID=78511	 Ribes nigrum (European black currant).
+
 NCBI_TaxID=4681	 Allium porrum (Leek) (Allium ampeloprasum var. porrum).
+
 NCBI_TaxID=3603	 Vitis.
+
 NCBI_TaxID=16901	 Aucuba japonica (Japanese laurel) (Spotted laurel).
+
 NCBI_TaxID=3396	 Cycas revoluta (Sago palm).
+
 NCBI_TaxID=132433	 Calopogonium mucunoides.
+
 NCBI_TaxID=3823	 Canavalia ensiformis (Jack bean) (Dolichos ensiformis).
+
 NCBI_TaxID=185703	 Centrosema pubescens.
+
 NCBI_TaxID=3891	 Psophocarpus tetragonolobus (Winged bean) (Dolichos tetragonolobus).
+
 NCBI_TaxID=230209	 Balsamorhiza sagittata.
+
 NCBI_TaxID=50225	 Taraxacum officinale (Common dandelion) (Leontodon taraxacum).
+
 NCBI_TaxID=103352	 Vitis rupestris.
+
 NCBI_TaxID=55188	 Citrus unshiu (Satsuma mandarin) (Citrus nobilis var. unshiu).
+
 NCBI_TaxID=3604	 Vitis sp. (Grape).
+
 NCBI_TaxID=3754	 Prunus.
+
 NCBI_TaxID=4283	 Cornus florida (Flowering dogwood).
+
 NCBI_TaxID=3746	 Fragaria.
+
 NCBI_TaxID=3486	 Humulus lupulus (European hop).
+
 NCBI_TaxID=13596	 Ligustrum (privets).
+
 NCBI_TaxID=4146	 Olea europaea (Common olive).
+
 NCBI_TaxID=40749	 Phlox (phloxes).
+
 NCBI_TaxID=34270	 Syringa vulgaris (Common lilac).
+
 NCBI_TaxID=3679	 Ecballium elaterium (Squirting cucumber) (Momordica elaterium).
+
 NCBI_TaxID=5116	 Cryphonectria parasitica (Chestnut blight fungus) (Endothia parasitica).
+
 NCBI_TaxID=13686	 Solenopsis invicta (Red imported fire ant) (Solenopsis wagneri).
+
 NCBI_TaxID=9005	 Phasianidae (turkeys).
+
 NCBI_TaxID=69826	 Ornithodoros savignyi (African eyed tampan) (Soft tick).
+
 NCBI_TaxID=7157	 Culicidae (mosquitos).
+
 NCBI_TaxID=4501	 Bromus.
+
 NCBI_TaxID=97361	 Hordeum murinum (Mouse barley) (Critesion murinum).
+
 NCBI_TaxID=4047	 Coriandrum sativum (Coriander) (Chinese parsley).
+
 NCBI_TaxID=70371	 Limonium sinuatum.
+
 NCBI_TaxID=53540	 Aedimorphus.
+
 NCBI_TaxID=53539	 Diceromyia.
+
 NCBI_TaxID=53541	 Stegomyia.
+
 NCBI_TaxID=299627	 Aedes furcifer (Mosquito).
+
 NCBI_TaxID=299628	 Aedes taylori (Mosquito).
+
 NCBI_TaxID=188700	 Aedes polynesiensis (Polynesian tiger mosquito).
+
 NCBI_TaxID=9983	 Lepus europaeus (European hare).
+
 NCBI_TaxID=9363	 Erinaceidae (hedgehogs).
+
 NCBI_TaxID=9483	 Callithrix jacchus (White-tufted-ear marmoset).
+
 NCBI_TaxID=9486	 Saguinus.
+
 NCBI_TaxID=37951	 Aedes sp..
+
 NCBI_TaxID=7180	 Haemagogus.
+
 NCBI_TaxID=84836	 Molothrus bonariensis (Shiny cowbird) (Tanagra bonariensis).
+
 NCBI_TaxID=190765	 Ochlerotatus.
+
 NCBI_TaxID=7182	 Psorophora.
+
 NCBI_TaxID=53551	 Sabethes.
+
 NCBI_TaxID=256689	 Sporophila caerulescens (double-collared seedeater).
+
 NCBI_TaxID=704162	 Trichoprosopon.
+
 NCBI_TaxID=308713	 Culex gelidus.
+
 NCBI_TaxID=88029	 Semnopithecus entellus (Northern plains gray langur) (Presbytis entellus).
+
 NCBI_TaxID=162997	 Culex annulirostris (Common banded mosquito).
+
 NCBI_TaxID=644619	 Ochlerotatus camptorhynchus.
+
 NCBI_TaxID=569589	 Ochlerotatus vigilax.
+
 NCBI_TaxID=8920	 Ciconiiformes (storks and others).
+
 NCBI_TaxID=34878	 Cervinae.
+
 NCBI_TaxID=4560	 Sorghum halepense (Johnson grass) (Holcus halepensis).
+
 NCBI_TaxID=81765	 Lachenalia.
+
 NCBI_TaxID=51466	 Ornithogalum.
+
 NCBI_TaxID=34620	 Dermacentor andersoni (Rocky mountain wood tick).
+
 NCBI_TaxID=35565	 Ixodes cookei.
+
 NCBI_TaxID=6945	 Ixodes scapularis (Black-legged tick) (Deer tick).
+
 NCBI_TaxID=34614	 Ixodes spinipalpis.
+
 NCBI_TaxID=3673	 Momordica charantia (Bitter gourd) (Balsam pear).
+
 NCBI_TaxID=90550	 Macroptilium atropurpureum.
+
 NCBI_TaxID=237841	 Passiflora aurantia (Orange-petaled passion flower).
+
 NCBI_TaxID=78168	 Passiflora edulis (Passion fruit).
+
 NCBI_TaxID=237871	 Passiflora nitida (Bell apple) (Passion flower).
+
 NCBI_TaxID=133504	 Passiflora suberosa (Corky-stemmed passion flower).
+
 NCBI_TaxID=40954	 Aethusa cynapium (Fool's parsley).
+
 NCBI_TaxID=40922	 Anethum graveolens (Dill).
+
 NCBI_TaxID=40888	 Anthriscus cerefolium (chervil).
+
 NCBI_TaxID=48027	 Anthriscus sylvestris.
+
 NCBI_TaxID=105274	 Chaerophyllum temulum.
+
 NCBI_TaxID=40919	 Heracleum sphondylium.
+
 NCBI_TaxID=305795	 Oenanthe aquatica.
+
 NCBI_TaxID=4041	 Pastinaca sativa (Wild parsnip) (Anethum pastinaca).
+
 NCBI_TaxID=49576	 Torilis japonica.
+
 NCBI_TaxID=4520	 Lolium.
+
 NCBI_TaxID=4120	 Ipomoea batatas (Sweet potato) (Convolvulus batatas).
+
 NCBI_TaxID=9191	 Agelaius tricolor (Tricolored blackbird).
+
 NCBI_TaxID=98964	 Cardinalis cardinalis (Northern cardinal).
+
 NCBI_TaxID=42429	 Culex nigripalpus.
+
 NCBI_TaxID=7175	 Culex pipiens (House mosquito).
+
 NCBI_TaxID=7176	 Culex quinquefasciatus (Southern house mosquito) (Culex pungens).
+
 NCBI_TaxID=7177	 Culex tarsalis (Encephalitis mosquito).
+
 NCBI_TaxID=28727	 Cyanocitta cristata (Blue jay).
+
 NCBI_TaxID=84817	 Euphagus cyanocephalus (Brewer's blackbird).
+
 NCBI_TaxID=30427	 Haemorhous mexicanus (House finch) (Carpodacus mexicanus).
+
 NCBI_TaxID=60713	 Mimus polyglottos (Northern mockingbird) (Turdus polyglottos).
+
 NCBI_TaxID=48849	 Passer domesticus (House sparrow) (Fringilla domestica).
+
 NCBI_TaxID=9188	 Turdus migratorius (American robin).
+
 NCBI_TaxID=47245	 Zenaida macroura (Mourning dove) (Columba macroura).
+
 NCBI_TaxID=4510	 Eleusine.
+
 NCBI_TaxID=4539	 Panicum.
+
 NCBI_TaxID=4546	 Saccharum.
+
 NCBI_TaxID=34615	 Ixodes persulcatus (Taiga tick).
+
 NCBI_TaxID=41429	 Anopheles maculipennis.
+
 NCBI_TaxID=653291	 Coquillettidia aurites.
+
 NCBI_TaxID=864528	 Culex neavei.
+
 NCBI_TaxID=943103	 Culex perexiguus.
+
 NCBI_TaxID=667564	 Mansonia africana.
+
 NCBI_TaxID=120870	 Ochlerotatus caspius.
+
 NCBI_TaxID=9187	 Turdus merula (Common blackbird).
+
 NCBI_TaxID=8495	 Alligator.
+
 NCBI_TaxID=308735	 Mansonia uniformis.
+
 NCBI_TaxID=308737	 Mimomyia.
+
 NCBI_TaxID=34861	 Sciurus niger (Eastern fox squirrel).
+
 NCBI_TaxID=299629	 Aedes luteocephalus (Mosquito).
+
 NCBI_TaxID=7161	 Aedes simpsoni.
+
 NCBI_TaxID=59117	 Anopheles amictus.
+
 NCBI_TaxID=9312	 Macropus.
+
 NCBI_TaxID=9533	 Cercopithecus.
+
 NCBI_TaxID=9573	 Presbytis.
+
 NCBI_TaxID=128161	 Teleogryllus oceanicus (black field cricket).
+
 NCBI_TaxID=9126	 Passeriformes.
+
 NCBI_TaxID=9268	 Didelphis marsupialis (Southern opossum).
+
 NCBI_TaxID=53535	 Melanoconion.
+
 NCBI_TaxID=9272	 Philander opossum (Gray four-eyed opossum).
+
 NCBI_TaxID=10162	 Proechimys.
+
 NCBI_TaxID=248899	 Ectropis obliqua (Tea geometrid moth).
+
 NCBI_TaxID=9627	 Vulpes vulpes (Red fox).
+
 NCBI_TaxID=149459	 Mansonia.
+
 NCBI_TaxID=44482	 Anopheles.
+
 NCBI_TaxID=9322	 Macropus sp. (kangaroo).
+
 NCBI_TaxID=170865	 Halcyon.
+
 NCBI_TaxID=158617	 Quelea.
+
 NCBI_TaxID=48156	 Acrocephalus scirpaceus (Eurasian reed-warbler).
+
 NCBI_TaxID=45807	 Motacilla alba (White wagtail) (Pied wagtail).
+
 NCBI_TaxID=177155	 Streptopelia turtur.
+
 NCBI_TaxID=7164	 Anopheles.
+
 NCBI_TaxID=34999	 Thamnophis.
+
 NCBI_TaxID=37591	 Urocitellus richardsonii (Richardson's ground squirrel) (Spermophilus richardsonii).
+
 NCBI_TaxID=64146	 Channa lucius (Forest snakehead) (Ophicephalus lucius).
+
 NCBI_TaxID=4743	 Commelina.
+
 NCBI_TaxID=1496	 Clostridioides difficile (Peptoclostridium difficile).
+
 NCBI_TaxID=1902	 Streptomyces coelicolor.
+
 NCBI_TaxID=214144	 Euxoa.
+
 NCBI_TaxID=9794	 Equus hemionus (Onager) (Asian wild ass).
+
 NCBI_TaxID=89252	 Equus quagga burchellii (Plains zebra) (Equus burchelli).
+
 NCBI_TaxID=13750	 Vaccinium macrocarpon (Large cranberry) (Oxycoccus macrocarpus).
+
 NCBI_TaxID=76772	 Callospermophilus lateralis (Golden-mantled ground squirrel) (Spermophilus lateralis).
+
 NCBI_TaxID=34844	 Erethizon dorsatum (North American porcupine).
+
 NCBI_TaxID=105147	 Neotoma cinerea (Bushy-tailed woodrat).
+
 NCBI_TaxID=95602	 Eriocheir sinensis (Chinese mitten crab).
+
 NCBI_TaxID=203262	 Epinephelus tauvina (Greasy grouper) (Perca tauvina).
+
 NCBI_TaxID=79674	 Macrobrachium rosenbergii (Giant fresh water prawn).
+
 NCBI_TaxID=64459	 Pieris rapae (Small white butterfly) (Artogeia rapae).
+
 NCBI_TaxID=5180	 Sclerotinia sclerotiorum (White mold) (Whetzelinia sclerotiorum).
+
 NCBI_TaxID=7416	 Campoletis sonorensis.
+
 NCBI_TaxID=29549	 Rhodothermus marinus (Rhodothermus obamensis).
+
 NCBI_TaxID=37636	 Thermus scotoductus.
+
 NCBI_TaxID=382	 Rhizobium meliloti (Ensifer meliloti) (Sinorhizobium meliloti).
+
 NCBI_TaxID=570	 Klebsiella.
+
 NCBI_TaxID=7420	 Diadromus pulchellus (Parasitic wasp).
+
 NCBI_TaxID=1428	 Bacillus thuringiensis.
+
 NCBI_TaxID=1810	 Mycolicibacterium vaccae (Mycobacterium vaccae).
+
 NCBI_TaxID=79499	 Lacanobia oleracea.
+
 NCBI_TaxID=9988	 Sylvilagus floridanus (Cottontail rabbit).
+
 NCBI_TaxID=9860	 Cervus elaphus (Red deer).
+
 NCBI_TaxID=9870	 Rangifer tarandus (Reindeer) (Cervus tarandus).
+
 NCBI_TaxID=9597	 Pan paniscus (Pygmy chimpanzee) (Bonobo).
+
 NCBI_TaxID=13151	 Micromys minutus (European harvest mouse).
+
 NCBI_TaxID=7101	 Heliothis.
+
 NCBI_TaxID=103831	 Mythimna unipuncta (Armyworm moth) (Pseudaletia unipuncta).
+
 NCBI_TaxID=633	 Yersinia pseudotuberculosis.
+
 NCBI_TaxID=60712	 Chlorocebus tantalus (Tantalus monkey) (Cercopithecus tantalus).
+
 NCBI_TaxID=2093	 Mycoplasma.
+
 NCBI_TaxID=1279	 Staphylococcus.
+
 NCBI_TaxID=8910	 Laridae (gulls).
+
 NCBI_TaxID=9205	 Pelecaniformes (Ibis, herons and pelicans).
+
 NCBI_TaxID=28909	 Cynodon dactylon (Bermuda grass) (Panicum dactylon).
+
 NCBI_TaxID=121769	 Digitaria sanguinalis.
+
 NCBI_TaxID=149379	 Setaria verticillata.
+
 NCBI_TaxID=2242	 Halobacterium salinarum (Halobacterium halobium).
+
 NCBI_TaxID=52841	 Oryza sp..
+
 NCBI_TaxID=1350	 Enterococcus.
+
