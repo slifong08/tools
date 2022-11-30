@@ -196,7 +196,6 @@ dependencies:
 - pytz=2021.3=pyhd3eb1b0_0
 - pyyaml=5.4.1=py36h27cfd23_1
 - pyzmq=22.2.1=py36h295c915_1
-- qt=4.8.7=2
 - qtconsole=5.1.1=pyhd3eb1b0_0
 - qtpy=1.10.0=pyhd3eb1b0_0
 - r=3.6.0=r36_0

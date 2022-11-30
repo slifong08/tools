@@ -1,0 +1,79 @@
+Tue Nov 29 18:12:30 PST 2022
+qb3-id54
+==============================================================
+job_number:                 281739
+exec_file:                  job_scripts/281739
+submission_time:            Tue Nov 29 18:11:44 2022
+owner:                      fongsl
+uid:                        61815
+group:                      ahituv
+gid:                        47000
+sge_o_home:                 /wynton/home/ahituv/fongsl
+sge_o_log_name:             fongsl
+sge_o_path:                 /wynton/home/ahituv/fongsl/.conda/envs/wynenv/bin:/salilab/diva1/home/anaconda/anaconda3/condabin:/salilab/diva1/home/anaconda/anaconda3/bin:/opt/sge/bin:/opt/sge/bin/lx-amd64:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/wynton/home/ahituv/fongsl/.local/bin:/wynton/home/ahituv/fongsl/bin
+sge_o_shell:                /bin/bash
+sge_o_workdir:              /wynton/home/ahituv/fongsl/tools/wynton/unit_test
+sge_o_host:                 dev2
+account:                    sge
+cwd:                        /wynton/home/ahituv/fongsl/tools/wynton/unit_test
+stderr_path_list:           NONE:NONE:/wynton/home/ahituv/fongsl/tools/wynton/log/error.txt
+merge:                      y
+hard resource_list:         mem_free=1G,scratch=2G,h_rt=60
+mail_options:               abe
+mail_list:                  sarah.fong@ucsf.edu
+notify:                     FALSE
+job_name:                   qsub.sample.sh
+stdout_path_list:           NONE:NONE:/wynton/home/ahituv/fongsl/tools/wynton/log/output.txt
+jobshare:                   0
+hard_queue_list:            !*gpu.q
+restart:                    y
+shell_list:                 NONE:/bin/bash
+env_list:                   TERM=NONE
+job_args:                   please,run
+script_file:                qsub.sample.sh
+project:                    genetics
+binding:                    NONE
+job_type:                   NONE
+usage         1:            cpu=00:00:00, mem=0.00000 GB s, io=0.00000 GB, vmem=N/A, maxvmem=N/A
+binding       1:            NONE
+scheduling info:            (Collecting of scheduler job information is turned off)
+Tue Nov 29 18:15:30 PST 2022
+qb3-id54
+noodles are not fruit!
+==============================================================
+job_number:                 281747
+exec_file:                  job_scripts/281747
+submission_time:            Tue Nov 29 18:14:28 2022
+owner:                      fongsl
+uid:                        61815
+group:                      ahituv
+gid:                        47000
+sge_o_home:                 /wynton/home/ahituv/fongsl
+sge_o_log_name:             fongsl
+sge_o_path:                 /wynton/home/ahituv/fongsl/.conda/envs/wynenv/bin:/salilab/diva1/home/anaconda/anaconda3/condabin:/salilab/diva1/home/anaconda/anaconda3/bin:/opt/sge/bin:/opt/sge/bin/lx-amd64:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/wynton/home/ahituv/fongsl/.local/bin:/wynton/home/ahituv/fongsl/bin
+sge_o_shell:                /bin/bash
+sge_o_workdir:              /wynton/home/ahituv/fongsl/tools/wynton/unit_test
+sge_o_host:                 dev2
+account:                    sge
+cwd:                        /wynton/home/ahituv/fongsl/tools/wynton/unit_test
+stderr_path_list:           NONE:NONE:/wynton/home/ahituv/fongsl/tools/wynton/log/error.txt
+merge:                      y
+hard resource_list:         mem_free=1G,scratch=2G,h_rt=60
+mail_options:               abe
+mail_list:                  sarah.fong@ucsf.edu
+notify:                     FALSE
+job_name:                   qsub.sample.sh
+stdout_path_list:           NONE:NONE:/wynton/home/ahituv/fongsl/tools/wynton/log/output.txt
+jobshare:                   0
+hard_queue_list:            !*gpu.q
+restart:                    y
+shell_list:                 NONE:/bin/bash
+env_list:                   TERM=NONE
+job_args:                   kiwi,lime
+script_file:                qsub.sample.sh
+project:                    genetics
+binding:                    NONE
+job_type:                   NONE
+usage         1:            cpu=00:00:00, mem=0.00000 GB s, io=0.00000 GB, vmem=N/A, maxvmem=N/A
+binding       1:            NONE
+scheduling info:            (Collecting of scheduler job information is turned off)
