@@ -98,15 +98,12 @@ def shuffle(test_bed, shuf_path, sample_id, iter_, build, include):
 def main(argv):
     
     #num_cores = multiprocessing.cpu_count()
-    num_cores = 1
+    num_cores = 8
     print("number of cores", num_cores, "number of iters", ITERS)
 
     # run parallel jobs
 
     Parallel(n_jobs=num_cores, verbose=100, prefer="threads")(delayed(shuffle)(TEST_BED, SHUF_PATH, SAMPLE_ID, i, BUILD, INCLUDE) for i in range(int(ITERS)))
-
-
-    #shuffle(TEST_BED, SHUF_PATH, SAMPLE_ID, ITERS, BUILD, INCLUDE)
     
 if __name__ == "__main__":
     main(sys.argv[1:])
