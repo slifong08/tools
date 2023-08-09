@@ -50,3 +50,37 @@ def make_chr_list():
         chr_list.append(chrn)
 
     return chr_list
+
+def makeFullChrList():
+    n = list(np.arange(1, 23))
+    n.extend(["X", "Y"])
+
+    chr_list = []
+    for num in n:
+        chrn = "chr" + str(num)
+        chr_list.append(chrn)
+
+    return chr_list
+
+def makeCoorAnnot(df, chr_colname, start_colname, end_colname, id_name):
+    """
+    make a bed coordinates column in dataframe
+    
+    input 
+        df (pd dataframe) - dataframe to transform
+        chr_colname (str) - name of #chr column
+        start_colname (str) - name of start column
+        end_colname (str) - name of end column
+        id_name (str) - name to call new coordinate column
+
+    method
+        make coordinate column from #chr, start, end columns
+
+    return
+        df (pd dataframe) - dataframe with one extra column for the coordinate annotation
+        
+        
+    """
+    df[f"{id_name}.coor"] = df[chr_colname] +  ":"  + df[start_colname].map(str) + "-" + df[end_colname].map(str)
+    
+    return df

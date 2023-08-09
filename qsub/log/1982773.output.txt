@@ -1,0 +1,11 @@
+Mon Feb 13 11:49:13 PST 2023
+qb3-id235
+INFO: Staging current Conda environment (/wynton/home/ahituv/fongsl/.conda/envs/wynenv) to local disk ...
+INFO: Extracting /wynton/home/ahituv/fongsl/.conda/envs/wynenv.tar.gz (1288003998 bytes; 2023-02-06 10:31:46.000000000 -0800) to /scratch/1982773.1.member.q/conda-stage-7vYp/wynenv
+INFO: Total extract time: 32 seconds
+INFO: Disable any /scratch/1982773.1.member.q/conda-stage-7vYp/wynenv/etc/conda/activate.d/*.conda-stage-auto.sh scripts
+INFO: Activating staged environment
+INFO: Unpacking (relocating)
+INFO: Total 'conda-unpack' time: 2 seconds
+INFO: Making staged environment read-only (use --writable to disable)
+INFO: Activating staged Conda environment: /scratch/1982773.1.member.q/conda-stage-7vYp/wynenv

@@ -1,5 +1,0 @@
-apples
-pears
-peaches
-kiwi
-lime

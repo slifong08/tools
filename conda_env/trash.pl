@@ -185,7 +185,8 @@ foreach my $itemToDelete (@ARGV) {
     #print "Directory that it is in: " . $dirname . "\n";
     #print "\n";
 
-    my $trash = qq{/tmp/${username}/Trash};
+    #my $trash = qq{/tmp/${username}/Trash}; # move to scratch
+    my $trash = qq{/wynton/scratch/${username}/Trash};
 
     if (! -e $trash) {
 	print qq{trash.pl: Making trash directory "$trash"\n};
