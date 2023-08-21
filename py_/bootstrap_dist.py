@@ -13,15 +13,15 @@ def bootstrap(data_list, size):
         
     method 
         1. If size is None, get the length of the list 
-        2. get the median of the list
+        2. get the observed stat of the list (mean, median, quantile)
         3. set bootstrap parameters
         4. per iteration, randomly choose elements from the fold changes list w replacement
-        5. append the median to the list of bootstrapped_medians
-        6. turn medians into a dataframe
-        7. calculate the delta distances from the population median. This centers the data.
+        5. append the stat to the list of bootstrapped_stat
+        6. turn stats into a dataframe
+        7. calculate the delta distances from the population stat. This centers the data.
         8. sort from largest to smallest difference
-        9. get discrete 0.025 adn 0.975 quantile values of the centered median distribution. 
-        10. calculate relative confidence intervals and the population median - quantile values
+        9. get discrete 0.025 adn 0.975 quantile values of the centered stat distribution. 
+        10. calculate relative confidence intervals and actual confidence interval values (population stat - quantile values)
     """
     
     #1
@@ -29,12 +29,12 @@ def bootstrap(data_list, size):
         size = len(data_list) # size of distribution to bootstrap
 
     #2
-    xbar = np.median(data_list) # get median fold-change from n shuffles (if using mean for empirical obs, use mean here)
+    obs_stat = np.median(data_list) # get observed stat
     
     #3
     nboot = 10000 # resample 10000 times
     val = 0
-    bs_medians = []
+    bs_stats = []
     
     #4
     while val < nboot:
@@ -42,14 +42,14 @@ def bootstrap(data_list, size):
         bs_dist = np.random.choice(data_list, replace = True, size = size)
         
         #5
-        bsmedian = np.median(bs_dist)
-        bs_medians.append(bsmedian)
+        bs_stat = np.median(bs_dist)
+        bs_stats.append(bs_stat)
         val +=1
     #6
-    bs = pd.DataFrame(data = bs_medians, index = np.arange(nboot), columns = ["bs_medians"]) # make dataframe of bootstraps
+    bs = pd.DataFrame(data = bs_stats, index = np.arange(nboot), columns = ["bs_stat"]) # make dataframe of bootstraps
 
-    #7 center the medians distribution
-    bs["deltas"] = bs.bs_medians - xbar
+    #7 center the stat distribution
+    bs["deltas"] = bs.bs_stats - obs_stat
 
     #8
     bs = bs.sort_values(by = "deltas", ascending= False)
@@ -59,8 +59,8 @@ def bootstrap(data_list, size):
     high = bs.deltas.quantile(0.975)
     ci_discrete = [high, low]
 
-    #10  return ci relative to data_list median 
-    ci_relative = xbar - [high, low]
+    #10  return ci relative to observed stat 
+    ci_relative = obs_stat - [high, low]
    
-    print("CI", ci_discrete, ci_relative, xbar)
+    print("CI", ci_discrete, ci_relative, obs_stat)
     return ci_discrete, ci_relative
