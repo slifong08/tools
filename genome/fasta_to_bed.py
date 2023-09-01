@@ -1,65 +1,50 @@
-import argparse
+from Bio.SeqIO.FastaIO import SimpleFastaParser
 import os, sys
-import pandas as pd
+from pathlib import Path
 
-
-arg_parser = argparse.ArgumentParser(description=" describe argparse")
-
-arg_parser.add_argument("fasta", help='fasta file w/ full path')
-arg_parser.add_argument("-b", "--build", type=str, default='hg19', choices=['hg19', 'hg38'],
-                        help='human genome assembly; default=hg19')
-
-
-args = arg_parser.parse_args()
-
-F = args.fasta
-BUILD = args.build
-PATH = "/".join(F.split("/")[:-1]) + "/"
-
+FASTA = sys.argv[1]
 
 #%% FUNCTIONS
 
+def readFastaWriteBed(fasta, outbed):
+    
+    # touch the file
+    if os.path.exists(outbed) is False:
+        Path(outbed).touch()
 
-def replace_w_tabs(f, path, build):
+    #parse fasta file
+    with open(fasta, "r") as handle:
+        for values in SimpleFastaParser(handle):
+            
+            coor, seq = values
+            
+            # if coordinates are annotated, str-split to get information
+            if "chr" in coor and "-" in coor:
+                # get bed coordinates
+                chr_ = coor.split(":")[0]
+                start = (coor.split(":")[1]).split("-")[0]
+                end = (coor.split(":")[1]).split("-")[1]
+                
+            
+                # get line of bedfile 
+                bedline = f"{chr_}\t{start}\t{end}\n"
+                #print(bedline)
+            
+                # concat command
+                os.system(f"echo {bedline} >> {outbed}")
 
-    # replace white spaces with tabs in fasta file
-    outf = f"{path}{build}.txt"
-
-    cmd = '''awk -v OFS="\t" '$1=$1' %s > %s''' % (f, outf)
-    os.system(cmd)
-
-    return outf
-
-
-def make_bed(outf, path, build):
-
-    # make a bedfile
-    os.chdir(path)
-
-    bedf = f"{path}{build}.bed"
-
-    cmd_bed = f"cut -f 5,6,7,10,11 {outf} > {bedf}"
-
-    os.system(cmd_bed)
-
-    return bedf
-
-
-def fasta_2_bed(f, path, build):
-
-    outf = replace_w_tabs(f, path, build) # replace w tabs
-    bedf = make_bed(outf, path, build) # make a bedfile
-
-    return bedf
-
-
+            else:
+                continue
+            
+    handle.close()
+        
 #%%
 
 def main(argv):
 
-    bedf = fasta_2_bed(F, PATH, BUILD)
+    outbed = os.path.splitext(FASTA)[0] + ".bed"
 
-    df = pd.read_csv(bedf, sep = '\t', skiprows = 2, header = None)
+    readFastaWriteBed(FASTA, outbed)
 
     
 if __name__ == "__main__":

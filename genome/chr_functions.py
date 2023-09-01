@@ -81,6 +81,6 @@ def makeCoorAnnot(df, chr_colname, start_colname, end_colname, id_name):
         
         
     """
-    df[f"{id_name}.coor"] = df[chr_colname] +  ":"  + df[start_colname].map(str) + "-" + df[end_colname].map(str)
+    df[f"{id_name}.coor"] = df[chr_colname].map(str) +  ":"  + df[start_colname].map(str) + "-" + df[end_colname].map(str)
     
     return df
