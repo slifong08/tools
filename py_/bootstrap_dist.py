@@ -49,7 +49,7 @@ def bootstrap(data_list, size):
     bs = pd.DataFrame(data = bs_stats, index = np.arange(nboot), columns = ["bs_stat"]) # make dataframe of bootstraps
 
     #7 center the stat distribution
-    bs["deltas"] = bs.bs_stats - obs_stat
+    bs["deltas"] = bs["bs_stat"] - obs_stat
 
     #8
     bs = bs.sort_values(by = "deltas", ascending= False)
