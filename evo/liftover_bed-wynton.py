@@ -34,7 +34,7 @@ print(PATH, MINMATCH, type(MINMATCH))
 
 
 # params
-LIFTOVER_SRC = "/wynton/home/ahituv/fongsl/bin/ucsc_exe/liftOver"
+LIFTOVER_SRC = "/wynton/group/ahituv/bin/liftOver"
 
 # print message
 print("\n\nlifting over", F, "from",  FROM, "to", TO, "in", PATH, "\n\n")
