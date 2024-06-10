@@ -1,0 +1,17 @@
+# 20240610
+# SarahFong
+
+This is how I run liftOver on bed files. 
+
+The script lives on wynton here: 
+/wynton/group/ahituv/bin/liftover_bed-wynton.py
+
+To run, this script takes three inputs:  
+a bed file of genome coordinates 
+name of the original genome build 
+name of genome build you want to transfer your coordinates to. 
+
+for example, if I wanted to liftover a file from hg38 to hs1 (T2T)  I would run the command:
+python /wynton/group/ahituv/bin/liftover_bed-wynton.py <<mydata.bed>> hg38 hs1
+
+This should work for most common species (e.g. mm9, rhemac10), but if your species isn't here, message me and we can setup the liftover and  chain file for your species.
