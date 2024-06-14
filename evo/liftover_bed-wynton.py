@@ -48,7 +48,7 @@ def get_chainFile(from_build, to_build):
     ### get the chainfile between the two builds ###
     
     if to_build == "hs1":  # Hs1 is not yet in wynton group data. Go to my home dir instead. 
-        chainPath =f"/wynton/home/ahituv/fongsl/dna/{from_build}"
+        chainPath =f"/wynton/group/ahituv/data/dna/{from_build}"
         
     else:
         chainPath = f"/wynton/group/databases/goldenPath/{from_build}/liftOver" # path to chain file

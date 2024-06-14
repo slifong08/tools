@@ -2,7 +2,7 @@ import os, sys
 import numpy as np
 import pandas as pd
 
-def bootstrap(data_list, size, stat):  
+def bootstrap(data_list, size, stat, print=False):  
     
     """
     return the discrete and 95% confidence intervals for a stat from a data_list 
@@ -74,8 +74,9 @@ def bootstrap(data_list, size, stat):
 
     #10  return ci relative to observed stat 
     ci_discrete = obs_stat - [high, low]  # assume obs value is center
-   
-    print(f"measure bootstrap CI of {stat} \
+
+    if print is True:
+        print(f"measure bootstrap CI of {stat} \
           quantile| mean estimate\n observed {stat} value:", 
           obs_stat,  
           "\ndiscrete diff from observed:", ci_discrete, 
