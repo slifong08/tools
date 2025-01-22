@@ -1,5 +1,5 @@
 import argparse
-from Bio.SeqUtils import gc_fraction
+from Bio.SeqUtils import GC as gc_fraction
 import glob
 import pandas as pd
 import os, sys
@@ -31,16 +31,17 @@ INPUT, CONFIG, GENOME_BUILD = args.input_file, args.config, args.genome_build
 # str splitting on variables
 OUTDIR, SAMPLE_NAME = os.path.split(INPUT)
 SAMPLE_ID= os.path.splitext(SAMPLE_NAME)[0]
-FIMO_RESULT_DIR = os.path.join(OUTDIR, f"fimo.{SAMPLE_ID}")
+FIMO_RESULT_DIR = os.path.join(OUTDIR, f"fimo")
+print("OUTPUT_DIR", FIMO_RESULT_DIR)
 
 # FILE CONSTANTS
-FIMO_SRC = "/wynton/group/ahituv/fongsl/src/meme-5.5.1/src/fimo"
-MEME = "/wynton/group/ahituv/tfbs_motif/jaspar/JASPAR2022_CORE_non-redundant_pfms_meme.txt"
+FIMO_SRC = "/wynton/group/ahituv/bin/meme-5.5.5/src/fimo"
+MEME = "/wynton/group/ahituv/data/tfbs_motif/jaspar/JASPAR2022_CORE_non-redundant_pfms_meme.txt"
 
 
-# MK FIMO RESULTS DIR
-if os.path.exists(os.path.join(OUTDIR, f"fimo")) is False and os.path.exists(FIMO_RESULT_DIR) is False:
-    os.mkdir(os.path.join(OUTDIR, f"fimo"))
+## MK FIMO RESULTS DIR
+#if os.path.exists(os.path.join(OUTDIR, f"fimo")) is False and os.path.exists(FIMO_RESULT_DIR) is False:
+#    os.mkdir(os.path.join(OUTDIR, f"fimo"))
 
 ### 
 # FUNCTIONS
@@ -156,18 +157,17 @@ def runFimo(fa, sample_id, fimo_src, meme):
                 ])
     
     #4
-    if os.path.exists(output_dir) is False:
-        print(cmd)
-        os.system(cmd)
-    else:
-        print("ran fimo already for", sample_id, "?")
+
+    print(cmd)
+    os.system(cmd)
+    
 
     return output_dir
 
 
 def fimo2bed(fimo_outdir, sample_id):
     
-    def fimo2bed(fimo_outdir, sample_id):
+
     
     """
     format fimo outputs after run
