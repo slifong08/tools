@@ -31,10 +31,10 @@ def main(argv):
     
     arg_parser = argparse.ArgumentParser(description= "generate dinucleotide shuffles given list of sequences")
 
-    arg_parser.add_argument("--fasta", help='seq fasta')
+    arg_parser.add_argument("--input", help='input fasta or text file where each line is one sequence')
     args = arg_parser.parse_args()
 
-    FA = args.fasta
+    FA = args.input
     
     # file to write
     FA_SCRAMBLE = ".".join(FA.split(".")[:-1]) + ".scramble.fa"
@@ -48,7 +48,7 @@ def main(argv):
 
     # read and scramble fasta sequences
     with open(FA, "r") as fa_reader:
-        seqid=None
+        seqid, counter=None, 0 # seq id, counter
         
         for row in fa_reader:
             row = row.strip("\n") 
@@ -58,19 +58,27 @@ def main(argv):
                 
             else:  # handle the sequence
                 
+                if seqid is None:  # incase this isn't a fasta file, but a list of sequences, 
+                    seq_id=f">{counter}"
+                    
                 # scramble and store sequence in dictionary
                 fa_scrambles[seq_id] = dinucScramble(row, verbose=False)  
                 
                 seqid=None # reset seqid
+                
+            counter +=1
     
     ###
     # step 3 - write scramble sequences
     ###
     
     with open(FA_SCRAMBLE, "w") as writer:
+        
         for key, value in fa_scrambles.items():
+            
             writer.write(f"{key}\n{value}\n")
-        print("wrote", FA_SCRAMBLE)
+            
+        print("\n\nwrote", FA_SCRAMBLE)
 
 
 if __name__ == "__main__":
