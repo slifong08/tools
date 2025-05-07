@@ -1,0 +1,72 @@
+import argparse
+
+import glob
+import json
+import os, sys
+import pandas as pd
+
+
+# parse args
+parser = argparse.ArgumentParser()
+parser.add_argument("fasta", type=str, help = "fastafile")
+
+args = parser.parse_args()
+
+FA = args.fasta
+
+
+# str splitting
+OUTDIR, SAMPLE_NAME = os.path.split(FA)
+SAMPLE_ID= os.path.splitext(SAMPLE_NAME)[0].strip(".fa")
+
+
+# FILE CONSTANTS
+FIMO_SRC = "/wynton/group/ahituv/bin/meme-5.5.5/src/"
+JASPAR = "/wynton/group/ahituv/data/tfbs_motif/jaspar2024/JASPAR2024_CORE_vertebrates_non-redundant_pfms_meme.txt"
+FIMO_RESULT_DIR = os.path.join(OUTDIR, f"fimo")
+BKGD = os.path.join(FIMO_RESULT_DIR, "bkgd.markov")
+
+
+# make fimo dir
+if os.path.exists(FIMO_RESULT_DIR) is False:
+    os.mkdir(FIMO_RESULT_DIR)
+
+
+# write to config
+CONFIG = os.path.join(FIMO_RESULT_DIR, f"fimo.{SAMPLE_ID}.json" )
+
+config_dict = {"src":FIMO_SRC, 
+               "jaspar":JASPAR, 
+               "out_dr":FIMO_RESULT_DIR, 
+              "fasta":FA
+              }
+with open(CONFIG, "w") as writer:
+    json.dump(config_dict, writer)
+
+
+os.chdir(FIMO_RESULT_DIR)
+
+
+# make markov bkgd
+print("making markov")
+MARKOV = os.path.join(FIMO_SRC, "fasta-get-markov")
+bkgd_cmd = ' '.join([MARKOV, "-m 1", FA, BKGD]) # -m 1 = dinucleotide. 
+os.system(bkgd_cmd)
+print(bkgd_cmd)
+
+# run fimo
+FIMO = os.path.join(FIMO_SRC, "fimo")
+OUT = os.path.join(FIMO_RESULT_DIR, f"{SAMPLE_ID}.results.tsv")
+
+print("running FIMO", FIMO_RESULT_DIR)
+cmd = ' '.join([
+    FIMO,
+     "--text --skip-matched-sequence", 
+     "--verbosity 1",  # do not compute FDR, output tsv, do not print matches # --no-qvalue #--skip-matched-sequence
+    "--bfile", BKGD, 
+    JASPAR,
+    FA, f"| uniq > {OUT}" 
+            
+])
+print(cmd)
+os.system(cmd)
